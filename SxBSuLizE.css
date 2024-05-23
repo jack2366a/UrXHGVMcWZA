@@ -1,0 +1,4151 @@
+.fade-enter-active[data-v-772abd40],.fade-leave-active[data-v-772abd40]
+{
+	transition-duration: .2s;
+	transition-property: opacity;
+	transition-timing-function: cubic-bezier(.55,0,.1,1);
+	overflow: hidden
+}
+
+.fade-enter[data-v-772abd40],.fade-leave-active[data-v-772abd40]
+{
+	opacity: 0
+}
+
+.c-subttl[data-v-613d49e3]
+{
+	letter-spacing: 0;
+	text-align: center
+}
+
+.c-subttl--warningAutoLogin[data-v-613d49e3]
+{
+	font-size: 14px;
+	font-weight: 600;
+	color: #444;
+	line-height: 24px
+}
+
+.c-subttl--emailregistrationPreface[data-v-613d49e3]
+{
+	font-size: 14px;
+	font-weight: 600;
+	color: #eb5a46;
+	line-height: 19px
+}
+
+.c-subttl--emailregistrationPreface[data-v-613d49e3]:before
+{
+	content: "";
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAABGdBTUEAALGPC/xhBQAAA/RJREFUWAnNWM1vTFEUP/e+106wqVZ8tLQhUQtb1SAsbOiCBRtRH0sr/gPJhI2dhYWw81GxYcECGxsRiTY2diKiRFGZ+qhpTdP3jvO77Zu+jzvT91EfN5mZd889H78599zz7jmKcozqsX3rpkgdVD7tJsVdzNRJxPLBUGNK0Rix+sCaniwnvrfi5qOPc2vpv1VaVj49UKpU+BQp/ygxbWdBkEZWmFg4nxPrWx0d6oq69KCWUq45G5fLuvLq2aAoP8/MPc25m68qpUYF5tmO3h1Dqlz2m3E3/dcTJw50+7O1O+Kdbc2UZF0ToyPaLR1uv37/XSPZhsAmBgd2eeTdlX+4upFwIbqicYecQ+1DD57a9GgbceL4/iM++4//GCgYlT8MG7Blw5DwGDwFASZutQlYaa0lcjdtJv7xnbyx91aWRkRFakYrvTfuuQgwxJTn1YYzecpxqe3CZXI7u43t2shTmrx4rhEOOx3b6pT6wjFX30qcPgR6JlBixlnfUwcFq6Vtu8jZsNEOoBEV24pDJhgClvoDUkK+0ydSsaFcN0ZZfArbJi3NsxpgSJ7IU4uLJzl4qpog+hZagslGQK4EFhkGGDJ63uTJ01MJE1z9maClIQCDebsEwOTsDqYRtPFYgU0nvWiTtdLwypOh8UIWYH1WpjREzyOu/apz8i95FlruIe9hYNK4JUjgRdJGVqVhr/lT+bYxsAkswKQV856AmPc3HOxcEBgwABOCf/4elReWBELoAHC1QHwtQOjUc5e8BUqeJw4FO1cn86iIyACTeCy4eUbWMk3CuSy8rZmURJi5U8vlLZm6I0yLT6JbWdxjwIStzHwfj0MNeyz8HOdLOwcm8ZgUDgVHGIy/BDEGTBrVTEFc5EdOZbE8ZrAIJo0Sqyiw6Kksni6ASaPuk7Rf6ACEg7/oVgILMGlTjKLuKzBmR9+QVxkn78tn8j4VjAzBAkxzNzopRon8/rzYfAHz9czxvOJROYNl/j5mKmQUo/94oCAGFsAwF0VTtkuFXAhXCZVSL5Hbkl+NYAhaCAYYNJmyXSrkPFrVsuW08sJVajt/idrKF6VCcTKrkaAfAYZAsA4MvQSU7XIzGw8W0/66vVvJWb3WsLsbN5PT1ZNWdI5PbMJ2uJ9RBwYO1HUo21GEZtE8+/Y1BS9vr/Il08mELdMqiPUxxIPJYVoEHl/LUo3rVWuoZctWmnn5Qiryb0mlFoqpwh11sv3Gw9vxZSswMP2XTRUAQy8BZTuCEvOlHNBpWgINOj2wFYmxuHHEXEfvzn5x+QnTdIszZJxDB3RBZ7hPYVPTcCvjzPVWp6lBuQ/VTJzHNhcmsA7LZ2hJW502Y3+jOfwb62mzsamtkU4AAAAASUVORK5CYII=);background-size: cover;
+	vertical-align: middle;
+	margin-right: 6px
+}
+
+.c-subttl--emailregistrationPreface>.c-subttl__text[data-v-613d49e3]
+{
+	vertical-align: middle
+}
+
+.c-tooltip[data-v-dfc1a05e]
+{
+	position: relative;
+	display: inline-block
+}
+
+.c-tooltip__targetarea[data-v-dfc1a05e]
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	display: inline-block
+}
+
+.c-tooltip__frame[data-v-dfc1a05e]
+{
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+	width: 120px;
+	width: 70vw;
+	max-width: 300px;
+	right: 50%;
+	margin-top: 3px;
+	transform: translateX(50%)
+}
+
+.c-tooltip__body[data-v-dfc1a05e]
+{
+	background-color: #000;
+	padding: 3px 4px;
+	border-radius: 3px;
+	position: relative;
+	display: inline-block;
+	word-break: break-word
+}
+
+.c-tooltip__arrow[data-v-dfc1a05e]
+{
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 101;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5px 5px 5px;
+	border-color: transparent transparent #000 transparent
+}
+
+.fade-enter-active[data-v-dfc1a05e],.fade-leave-active[data-v-dfc1a05e]
+{
+	transition-duration: .2s;
+	transition-property: opacity;
+	transition-timing-function: cubic-bezier(.55,0,.1,1)
+}
+
+.fade-enter[data-v-dfc1a05e],.fade-leave-active[data-v-dfc1a05e]
+{
+	opacity: 0
+}
+
+.c-text[data-v-259faa70]
+{
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 13px;
+	max-width: 100%
+}
+
+.c-text--warning[data-v-259faa70]
+{
+	font-weight: 600;
+	font-size: 13px;
+	color: #6a6a6a;
+	margin-bottom: 13px
+}
+
+.c-text--conduct[data-v-259faa70]
+{
+	font-weight: 600;
+	font-size: 13px;
+	color: #444;
+	text-align: center;
+	line-height: 20px
+}
+
+.c-text--authzname[data-v-259faa70]
+{
+	font-weight: 600;
+	font-size: 12px;
+	color: #bec8d2
+}
+
+.c-text--authzname-v2[data-v-259faa70]
+{
+	font-weight: 600;
+	font-size: 15px;
+	color: #444
+}
+
+.c-text--notice[data-v-259faa70]
+{
+	font-size: 12px;
+	color: #eb5a46;
+	text-align: left
+}
+
+.c-certifiedShield__img[data-v-cc6c3630]
+{
+	display: inline-block
+}
+
+.c-certifiedShield__tooltip[data-v-cc6c3630]
+{
+	color: #ddd
+}
+
+.c-certifiedShield__tooltip__title[data-v-cc6c3630]
+{
+	font-weight: 700;
+	color: #fff
+}
+
+.container[data-v-4d4ea3cd]
+{
+	position: relative
+}
+
+.img[data-v-4d4ea3cd]
+{
+	position: absolute
+}
+
+:root
+{
+	--ldsm-palette-line-white: #fff;
+	--ldsm-palette-line-white-hover-color: #fcfcfc;
+	--ldsm-palette-line-white-highlighted-color: #f5f5f5;
+	--ldsm-palette-line-black: #000;
+	--ldsm-palette-line-black-hover-color: #404040;
+	--ldsm-palette-line-black-highlighted-color: #737373;
+	--ldsm-palette-line-green: #06c755;
+	--ldsm-palette-line-green-hover-color: #05a648;
+	--ldsm-palette-line-green-highlighted-color: #049440;
+	--ldsm-palette-line-red-300: #fcc5cb;
+	--ldsm-palette-line-red-300-hover-color: #c99da2;
+	--ldsm-palette-line-red-300-highlighted-color: #a37f83;
+	--ldsm-palette-line-red-400: #ff96a3;
+	--ldsm-palette-line-red-400-hover-color: #cc7882;
+	--ldsm-palette-line-red-400-highlighted-color: #a6626a;
+	--ldsm-palette-line-red-500: #ff697a;
+	--ldsm-palette-line-red-500-hover-color: #cc5462;
+	--ldsm-palette-line-red-500-highlighted-color: #a6444f;
+	--ldsm-palette-line-red-600: #ff334b;
+	--ldsm-palette-line-red-600-hover-color: #cc293c;
+	--ldsm-palette-line-red-600-highlighted-color: #a62131;
+	--ldsm-palette-line-red-700: #e5172f;
+	--ldsm-palette-line-red-700-hover-color: #b31225;
+	--ldsm-palette-line-red-700-highlighted-color: #8c0e1d;
+	--ldsm-palette-line-red-800: #c9162b;
+	--ldsm-palette-line-red-800-hover-color: #a81324;
+	--ldsm-palette-line-red-800-highlighted-color: #961120;
+	--ldsm-palette-line-red-900: #85101e;
+	--ldsm-palette-line-red-900-hover-color: #630c16;
+	--ldsm-palette-line-red-900-highlighted-color: #520a12;
+	--ldsm-palette-line-red-600p: #d44652;
+	--ldsm-palette-line-red-600p-hover-color: #b33b45;
+	--ldsm-palette-line-red-600p-highlighted-color: #a1353e;
+	--ldsm-palette-line-red-500p: #eb6570;
+	--ldsm-palette-line-red-500p-hover-color: #b84f58;
+	--ldsm-palette-line-red-500p-highlighted-color: #913f45;
+	--ldsm-palette-line-red-400p: #f68a94;
+	--ldsm-palette-line-red-400p-hover-color: #c26d75;
+	--ldsm-palette-line-red-400p-highlighted-color: #9c575e;
+	--ldsm-palette-line-red-300p: #f2ced2;
+	--ldsm-palette-line-red-300p-hover-color: #bfa3a6;
+	--ldsm-palette-line-red-300p-highlighted-color: #998285;
+	--ldsm-palette-line-gray-100: #fcfcfc;
+	--ldsm-palette-line-gray-100-hover-color: #c9c9c9;
+	--ldsm-palette-line-gray-100-highlighted-color: #a3a3a3;
+	--ldsm-palette-line-gray-150: #f5f5f5;
+	--ldsm-palette-line-gray-150-hover-color: #c2c2c2;
+	--ldsm-palette-line-gray-150-highlighted-color: #9c9c9c;
+	--ldsm-palette-line-gray-200: #efefef;
+	--ldsm-palette-line-gray-200-hover-color: #bdbdbd;
+	--ldsm-palette-line-gray-200-highlighted-color: #969696;
+	--ldsm-palette-line-gray-250: #e8e8e8;
+	--ldsm-palette-line-gray-250-hover-color: #b5b5b5;
+	--ldsm-palette-line-gray-250-highlighted-color: #8f8f8f;
+	--ldsm-palette-line-gray-300: #dfdfdf;
+	--ldsm-palette-line-gray-300-hover-color: #ababab;
+	--ldsm-palette-line-gray-300-highlighted-color: #858585;
+	--ldsm-palette-line-gray-350: #c8c8c8;
+	--ldsm-palette-line-gray-350-hover-color: #a6a6a6;
+	--ldsm-palette-line-gray-350-highlighted-color: #949494;
+	--ldsm-palette-line-gray-400: #b7b7b7;
+	--ldsm-palette-line-gray-400-hover-color: #969696;
+	--ldsm-palette-line-gray-400-highlighted-color: #858585;
+	--ldsm-palette-line-gray-500: #949494;
+	--ldsm-palette-line-gray-500-hover-color: #737373;
+	--ldsm-palette-line-gray-500-highlighted-color: #616161;
+	--ldsm-palette-line-gray-600: #777;
+	--ldsm-palette-line-gray-600-hover-color: #575757;
+	--ldsm-palette-line-gray-600-highlighted-color: #454545;
+	--ldsm-palette-line-gray-650: #616161;
+	--ldsm-palette-line-gray-650-hover-color: #404040;
+	--ldsm-palette-line-gray-650-highlighted-color: #2e2e2e;
+	--ldsm-palette-line-gray-700: #555;
+	--ldsm-palette-line-gray-700-hover-color: #333;
+	--ldsm-palette-line-gray-700-highlighted-color: #212121;
+	--ldsm-palette-line-gray-750: #3f3f3f;
+	--ldsm-palette-line-gray-750-hover-color: grey;
+	--ldsm-palette-line-gray-750-highlighted-color: #b3b3b3;
+	--ldsm-palette-line-gray-770: #383838;
+	--ldsm-palette-line-gray-770-hover-color: #787878;
+	--ldsm-palette-line-gray-770-highlighted-color: #ababab;
+	--ldsm-palette-line-gray-800: #2a2a2a;
+	--ldsm-palette-line-gray-800-hover-color: #696969;
+	--ldsm-palette-line-gray-800-highlighted-color: #9c9c9c;
+	--ldsm-palette-line-gray-850: #1f1f1f;
+	--ldsm-palette-line-gray-850-hover-color: #5e5e5e;
+	--ldsm-palette-line-gray-850-highlighted-color: #919191;
+	--ldsm-palette-line-gray-870: #1a1a1a;
+	--ldsm-palette-line-gray-870-hover-color: #595959;
+	--ldsm-palette-line-gray-870-highlighted-color: #8c8c8c;
+	--ldsm-palette-line-gray-880: #171717;
+	--ldsm-palette-line-gray-880-hover-color: #575757;
+	--ldsm-palette-line-gray-880-highlighted-color: #8a8a8a;
+	--ldsm-palette-line-gray-900: #111;
+	--ldsm-palette-line-gray-900-hover-color: #525252;
+	--ldsm-palette-line-gray-900-highlighted-color: #858585;
+	--ldsm-palette-line-blue-300: #c2d2ff;
+	--ldsm-palette-line-blue-300-hover-color: #9ba8cc;
+	--ldsm-palette-line-blue-300-highlighted-color: #7e89a6;
+	--ldsm-palette-line-blue-400: #96b1ff;
+	--ldsm-palette-line-blue-400-hover-color: #788dcc;
+	--ldsm-palette-line-blue-400-highlighted-color: #6273a6;
+	--ldsm-palette-line-blue-500: #6388ff;
+	--ldsm-palette-line-blue-500-hover-color: #506dcc;
+	--ldsm-palette-line-blue-500-highlighted-color: #4158a6;
+	--ldsm-palette-line-blue-600: #4d73ff;
+	--ldsm-palette-line-blue-600-hover-color: #3d5ccc;
+	--ldsm-palette-line-blue-600-highlighted-color: #324ba6;
+	--ldsm-palette-line-blue-700: #2c53de;
+	--ldsm-palette-line-blue-700-hover-color: #2240ab;
+	--ldsm-palette-line-blue-700-highlighted-color: #1b3285;
+	--ldsm-palette-line-blue-800: #2b49a1;
+	--ldsm-palette-line-blue-800-hover-color: #223a80;
+	--ldsm-palette-line-blue-800-highlighted-color: #1e326e;
+	--ldsm-palette-line-blue-900: #263a70;
+	--ldsm-palette-line-blue-900-hover-color: #1b294f;
+	--ldsm-palette-line-blue-900-highlighted-color: #15203d;
+	--ldsm-palette-line-blue-400d: #a0b5d9;
+	--ldsm-palette-line-blue-400d-hover-color: #8899b8;
+	--ldsm-palette-line-blue-400d-highlighted-color: #7b8aa6;
+	--ldsm-palette-line-blue-500d: #8cabd8;
+	--ldsm-palette-line-blue-500d-hover-color: #7791b8;
+	--ldsm-palette-line-blue-500d-highlighted-color: #6c83a6;
+	--ldsm-palette-line-blue-300p: #ccd3e5;
+	--ldsm-palette-line-blue-300p-hover-color: #9fa4b3;
+	--ldsm-palette-line-blue-300p-highlighted-color: #7d818c;
+	--ldsm-palette-line-blue-400p: #9fb6ec;
+	--ldsm-palette-line-blue-400p-hover-color: #7d8fba;
+	--ldsm-palette-line-blue-400p-highlighted-color: #637294;
+	--ldsm-palette-line-blue-500p: #658ee1;
+	--ldsm-palette-line-blue-500p-hover-color: #4e6ead;
+	--ldsm-palette-line-blue-500p-highlighted-color: #3d5687;
+	--ldsm-palette-line-blue-600p: #4e73cc;
+	--ldsm-palette-line-blue-600p-hover-color: #4161ab;
+	--ldsm-palette-line-blue-600p-highlighted-color: #3a5799;
+	--ldsm-palette-line-navy-500: #98a0b3;
+	--ldsm-palette-line-navy-500-hover-color: #7c8291;
+	--ldsm-palette-line-navy-500-highlighted-color: #6c7280;
+	--ldsm-palette-line-navy-600: #707991;
+	--ldsm-palette-line-navy-600-hover-color: #565d70;
+	--ldsm-palette-line-navy-600-highlighted-color: #494e5e;
+	--ldsm-palette-line-navy-700: #464f69;
+	--ldsm-palette-line-navy-700-hover-color: #303647;
+	--ldsm-palette-line-navy-700-highlighted-color: #242836;
+	--ldsm-palette-line-navy-800: #323b54;
+	--ldsm-palette-line-navy-800-hover-color: #1f2433;
+	--ldsm-palette-line-navy-800-highlighted-color: #141721;
+	--ldsm-palette-line-navy-900: #202a43;
+	--ldsm-palette-line-navy-900-hover-color: #3e5282;
+	--ldsm-palette-line-navy-900-highlighted-color: #5772b5;
+	--ldsm-palette-line-lime-100: #9de693;
+	--ldsm-palette-line-lime-100-hover-color: #7ab372;
+	--ldsm-palette-line-lime-100-highlighted-color: #608c5a;
+	--ldsm-palette-line-lime-200: #8fdf81;
+	--ldsm-palette-line-lime-200-hover-color: #6eab63;
+	--ldsm-palette-line-lime-200-highlighted-color: #55854d;
+	--ldsm-palette-line-lime-300: #79d279;
+	--ldsm-palette-line-lime-300-hover-color: #66b066;
+	--ldsm-palette-line-lime-300-highlighted-color: #5c9e5c;
+	--ldsm-palette-line-lime-400: #6de67b;
+	--ldsm-palette-line-lime-400-hover-color: #54b35f;
+	--ldsm-palette-line-lime-400-highlighted-color: #428c4b;
+	--ldsm-palette-line-lime-500: #5bdd6a;
+	--ldsm-palette-line-lime-500-hover-color: #46ab52;
+	--ldsm-palette-line-lime-500-highlighted-color: #36853f;
+	--ldsm-palette-line-lime-510: #58db67;
+	--ldsm-palette-line-lime-510-hover-color: #4aba57;
+	--ldsm-palette-line-lime-510-highlighted-color: #43a84f;
+	--ldsm-palette-line-lime-580: #4cc353;
+	--ldsm-palette-line-lime-580-hover-color: #3fa145;
+	--ldsm-palette-line-lime-580-highlighted-color: #388f3d;
+	--ldsm-palette-line-lime-600: #06c755;
+	--ldsm-palette-line-lime-600-hover-color: #05a648;
+	--ldsm-palette-line-lime-600-highlighted-color: #049440;
+	--ldsm-palette-line-lime-700: #3d9e43;
+	--ldsm-palette-line-lime-700-hover-color: #317d36;
+	--ldsm-palette-line-lime-700-highlighted-color: #2a6b2e;
+	--ldsm-palette-line-lime-750: #438643;
+	--ldsm-palette-line-lime-750-hover-color: #363;
+	--ldsm-palette-line-lime-750-highlighted-color: #2a542a;
+	--ldsm-palette-line-lime-800: #1e6e1e;
+	--ldsm-palette-line-lime-800-hover-color: #154d15;
+	--ldsm-palette-line-lime-800-highlighted-color: #103b10;
+	--ldsm-palette-line-lime-900: #1f4d1f;
+	--ldsm-palette-line-lime-900-hover-color: #388c38;
+	--ldsm-palette-line-lime-900-highlighted-color: #4dbf4d;
+	--ldsm-palette-line-yellow-300: #fdffe5;
+	--ldsm-palette-line-yellow-300-hover-color: #caccb8;
+	--ldsm-palette-line-yellow-300-highlighted-color: #a4a695;
+	--ldsm-palette-line-yellow-400: #fbffbf;
+	--ldsm-palette-line-yellow-400-hover-color: #c9cc99;
+	--ldsm-palette-line-yellow-400-highlighted-color: #a3a67c;
+	--ldsm-palette-line-yellow-500: #fdff78;
+	--ldsm-palette-line-yellow-500-hover-color: #cacc60;
+	--ldsm-palette-line-yellow-500-highlighted-color: #a4a64e;
+	--ldsm-palette-line-yellow-600: #fffc33;
+	--ldsm-palette-line-yellow-600-hover-color: #ccc929;
+	--ldsm-palette-line-yellow-600-highlighted-color: #a6a421;
+	--ldsm-palette-line-yellow-700: #fff200;
+	--ldsm-palette-line-yellow-700-hover-color: #ccc200;
+	--ldsm-palette-line-yellow-700-highlighted-color: #a69d00;
+	--ldsm-palette-line-yellow-800: #ffe500;
+	--ldsm-palette-line-yellow-800-hover-color: #ccb800;
+	--ldsm-palette-line-yellow-800-highlighted-color: #a69500;
+	--ldsm-palette-line-yellow-900: #ffd900;
+	--ldsm-palette-line-yellow-900-hover-color: #ccad00;
+	--ldsm-palette-line-yellow-900-highlighted-color: #a68d00;
+	--ldsm-palette-line-yellow-600p: #ffdf6b;
+	--ldsm-palette-line-yellow-600p-hover-color: #ccb256;
+	--ldsm-palette-line-yellow-600p-highlighted-color: #a69146;
+	--ldsm-palette-line-yellow-500p: #ffea80;
+	--ldsm-palette-line-yellow-500p-hover-color: #cb6;
+	--ldsm-palette-line-yellow-500p-highlighted-color: #a69853;
+	--ldsm-palette-line-yellow-400p: #fff8ab;
+	--ldsm-palette-line-yellow-400p-hover-color: #ccc689;
+	--ldsm-palette-line-yellow-400p-highlighted-color: #a6a16f;
+	--ldsm-palette-line-yellow-300p: #fcfad2;
+	--ldsm-palette-line-yellow-300p-hover-color: #c9c8a7;
+	--ldsm-palette-line-yellow-300p-highlighted-color: #a3a287;
+	--ldsm-palette-line-amber-300: #fff9cc;
+	--ldsm-palette-line-amber-300-hover-color: #ccc7a3;
+	--ldsm-palette-line-amber-300-highlighted-color: #a6a285;
+	--ldsm-palette-line-amber-400: #ffeb94;
+	--ldsm-palette-line-amber-400-hover-color: #ccbc76;
+	--ldsm-palette-line-amber-400-highlighted-color: #a69960;
+	--ldsm-palette-line-amber-500: #ffd86b;
+	--ldsm-palette-line-amber-500-hover-color: #ccac56;
+	--ldsm-palette-line-amber-500-highlighted-color: #a68c46;
+	--ldsm-palette-line-amber-600: #ffc53d;
+	--ldsm-palette-line-amber-600-hover-color: #cc9d31;
+	--ldsm-palette-line-amber-600-highlighted-color: #a68028;
+	--ldsm-palette-line-amber-700: #fcb321;
+	--ldsm-palette-line-amber-700-hover-color: #c98f1a;
+	--ldsm-palette-line-amber-700-highlighted-color: #a37415;
+	--ldsm-palette-line-amber-800: #fa9e1e;
+	--ldsm-palette-line-amber-800-hover-color: #c77e18;
+	--ldsm-palette-line-amber-800-highlighted-color: #a16613;
+	--ldsm-palette-line-amber-900: #f77911;
+	--ldsm-palette-line-amber-900-hover-color: #c4600e;
+	--ldsm-palette-line-amber-900-highlighted-color: #9e4d0b;
+	--ldsm-palette-line-amber-600p: #f7821b;
+	--ldsm-palette-line-amber-600p-hover-color: #c46716;
+	--ldsm-palette-line-amber-600p-highlighted-color: #9e5311;
+	--ldsm-palette-line-amber-500p: #ffb55d;
+	--ldsm-palette-line-amber-500p-hover-color: #cc9149;
+	--ldsm-palette-line-amber-500p-highlighted-color: #a6763c;
+	--ldsm-palette-line-amber-400p: #ffdd80;
+	--ldsm-palette-line-amber-400p-hover-color: #ccb166;
+	--ldsm-palette-line-amber-400p-highlighted-color: #a69053;
+	--ldsm-palette-line-amber-300p: #ffe8c2;
+	--ldsm-palette-line-amber-300p-hover-color: #ccb99b;
+	--ldsm-palette-line-amber-300p-highlighted-color: #a6977e;
+	--ldsm-palette-line-lightgreen-300: #93edbf;
+	--ldsm-palette-line-lightgreen-300-hover-color: #73ba96;
+	--ldsm-palette-line-lightgreen-300-highlighted-color: #5c9477;
+	--ldsm-palette-line-lightgreen-400: #64e8a4;
+	--ldsm-palette-line-lightgreen-400-hover-color: #4eb580;
+	--ldsm-palette-line-lightgreen-400-highlighted-color: #3d8f65;
+	--ldsm-palette-line-lightgreen-500: #35db80;
+	--ldsm-palette-line-lightgreen-500-hover-color: #2dba6c;
+	--ldsm-palette-line-lightgreen-500-highlighted-color: #28a862;
+	--ldsm-palette-line-lightgreen-600: #15bd66;
+	--ldsm-palette-line-lightgreen-600-hover-color: #119c54;
+	--ldsm-palette-line-lightgreen-600-highlighted-color: #0f8a4a;
+	--ldsm-palette-line-lightgreen-700: #18a352;
+	--ldsm-palette-line-lightgreen-700-hover-color: #148242;
+	--ldsm-palette-line-lightgreen-700-highlighted-color: #117039;
+	--ldsm-palette-line-lightgreen-800: #187a41;
+	--ldsm-palette-line-lightgreen-800-hover-color: #125930;
+	--ldsm-palette-line-lightgreen-800-highlighted-color: #0e4726;
+	--ldsm-palette-line-lightgreen-900: #16592d;
+	--ldsm-palette-line-lightgreen-900-hover-color: #0e381d;
+	--ldsm-palette-line-lightgreen-900-highlighted-color: #0a2614;
+	--ldsm-palette-line-lightgreen-600p: #2a9c5b;
+	--ldsm-palette-line-lightgreen-600p-hover-color: #217a48;
+	--ldsm-palette-line-lightgreen-600p-highlighted-color: #1c693d;
+	--ldsm-palette-line-lightgreen-500p: #4bb875;
+	--ldsm-palette-line-lightgreen-500p-hover-color: #3e9660;
+	--ldsm-palette-line-lightgreen-500p-highlighted-color: #368554;
+	--ldsm-palette-line-lightgreen-400p: #85c79b;
+	--ldsm-palette-line-lightgreen-400p-hover-color: #6fa681;
+	--ldsm-palette-line-lightgreen-400p-highlighted-color: #639473;
+	--ldsm-palette-line-lightgreen-300p: #bad9c5;
+	--ldsm-palette-line-lightgreen-300p-hover-color: #9eb8a7;
+	--ldsm-palette-line-lightgreen-300p-highlighted-color: #8fa697;
+	--ldsm-palette-line-teal-300: #8eedd9;
+	--ldsm-palette-line-teal-300-hover-color: #70baaa;
+	--ldsm-palette-line-teal-300-highlighted-color: #599487;
+	--ldsm-palette-line-teal-400: #5ce5c8;
+	--ldsm-palette-line-teal-400-hover-color: #47b39b;
+	--ldsm-palette-line-teal-400-highlighted-color: #388c7a;
+	--ldsm-palette-line-teal-500: #20d6be;
+	--ldsm-palette-line-teal-500-hover-color: #1bb5a1;
+	--ldsm-palette-line-teal-500-highlighted-color: #18a391;
+	--ldsm-palette-line-teal-600: #19bfa1;
+	--ldsm-palette-line-teal-600-hover-color: #159e85;
+	--ldsm-palette-line-teal-600-highlighted-color: #128c76;
+	--ldsm-palette-line-teal-700: #14a37b;
+	--ldsm-palette-line-teal-700-hover-color: #108262;
+	--ldsm-palette-line-teal-700-highlighted-color: #0d7054;
+	--ldsm-palette-line-teal-800: #137856;
+	--ldsm-palette-line-teal-800-hover-color: #0e573e;
+	--ldsm-palette-line-teal-800-highlighted-color: #0b4532;
+	--ldsm-palette-line-teal-900: #145e4e;
+	--ldsm-palette-line-teal-900-hover-color: #0d3d33;
+	--ldsm-palette-line-teal-900-highlighted-color: #092b24;
+	--ldsm-palette-line-teal-600p: #24967c;
+	--ldsm-palette-line-teal-600p-hover-color: #1c7560;
+	--ldsm-palette-line-teal-600p-highlighted-color: #186352;
+	--ldsm-palette-line-teal-500p: #46b897;
+	--ldsm-palette-line-teal-500p-hover-color: #39967c;
+	--ldsm-palette-line-teal-500p-highlighted-color: #32856d;
+	--ldsm-palette-line-teal-400p: #7cc9b0;
+	--ldsm-palette-line-teal-400p-hover-color: #68a894;
+	--ldsm-palette-line-teal-400p-highlighted-color: #5d9684;
+	--ldsm-palette-line-teal-300p: #bad9cf;
+	--ldsm-palette-line-teal-300p-hover-color: #9eb8af;
+	--ldsm-palette-line-teal-300p-highlighted-color: #8fa69e;
+	--ldsm-palette-line-cyan-300: #8ceded;
+	--ldsm-palette-line-cyan-300-hover-color: #6ebaba;
+	--ldsm-palette-line-cyan-300-highlighted-color: #579494;
+	--ldsm-palette-line-cyan-400: #5be3de;
+	--ldsm-palette-line-cyan-400-hover-color: #46b0ac;
+	--ldsm-palette-line-cyan-400-highlighted-color: #378a87;
+	--ldsm-palette-line-cyan-500: #26d1d1;
+	--ldsm-palette-line-cyan-500-hover-color: #20b0b0;
+	--ldsm-palette-line-cyan-500-highlighted-color: #1c9e9e;
+	--ldsm-palette-line-cyan-600: #1cb8b8;
+	--ldsm-palette-line-cyan-600-hover-color: #179696;
+	--ldsm-palette-line-cyan-600-highlighted-color: #148585;
+	--ldsm-palette-line-cyan-700: #10a1a1;
+	--ldsm-palette-line-cyan-700-hover-color: #0d8080;
+	--ldsm-palette-line-cyan-700-highlighted-color: #0b6e6e;
+	--ldsm-palette-line-cyan-800: #107575;
+	--ldsm-palette-line-cyan-800-hover-color: #0c5454;
+	--ldsm-palette-line-cyan-800-highlighted-color: #094242;
+	--ldsm-palette-line-cyan-900: #155c5c;
+	--ldsm-palette-line-cyan-900-hover-color: #0d3b3b;
+	--ldsm-palette-line-cyan-900-highlighted-color: #092929;
+	--ldsm-palette-line-cyan-600p: #1f9399;
+	--ldsm-palette-line-cyan-600p-hover-color: #187378;
+	--ldsm-palette-line-cyan-600p-highlighted-color: #146266;
+	--ldsm-palette-line-cyan-500p: #41b6b9;
+	--ldsm-palette-line-cyan-500p-hover-color: #369699;
+	--ldsm-palette-line-cyan-500p-highlighted-color: #2f8487;
+	--ldsm-palette-line-cyan-400p: #7dcdcf;
+	--ldsm-palette-line-cyan-400p-hover-color: #68acad;
+	--ldsm-palette-line-cyan-400p-highlighted-color: #5d9b9c;
+	--ldsm-palette-line-cyan-300p: #bdd9d9;
+	--ldsm-palette-line-cyan-300p-hover-color: #a0b8b8;
+	--ldsm-palette-line-cyan-300p-highlighted-color: #90a6a6;
+	--ldsm-palette-line-lightblue-300: #90eafc;
+	--ldsm-palette-line-lightblue-300-hover-color: #73bbc9;
+	--ldsm-palette-line-lightblue-300-highlighted-color: #5d98a3;
+	--ldsm-palette-line-lightblue-400: #60def7;
+	--ldsm-palette-line-lightblue-400-hover-color: #4db0c4;
+	--ldsm-palette-line-lightblue-400-highlighted-color: #3e8e9e;
+	--ldsm-palette-line-lightblue-500: #11cdf2;
+	--ldsm-palette-line-lightblue-500-hover-color: #0da2bf;
+	--ldsm-palette-line-lightblue-500-highlighted-color: #0b8199;
+	--ldsm-palette-line-lightblue-600: #00b8e5;
+	--ldsm-palette-line-lightblue-600-hover-color: #008fb3;
+	--ldsm-palette-line-lightblue-600-highlighted-color: #00708c;
+	--ldsm-palette-line-lightblue-700: #0093c4;
+	--ldsm-palette-line-lightblue-700-hover-color: #007aa3;
+	--ldsm-palette-line-lightblue-700-highlighted-color: #006d91;
+	--ldsm-palette-line-lightblue-800: #066a91;
+	--ldsm-palette-line-lightblue-800-hover-color: #045270;
+	--ldsm-palette-line-lightblue-800-highlighted-color: #04455e;
+	--ldsm-palette-line-lightblue-900: #084f6b;
+	--ldsm-palette-line-lightblue-900-hover-color: #05364a;
+	--ldsm-palette-line-lightblue-900-highlighted-color: #042938;
+	--ldsm-palette-line-lightblue-600p: #268cad;
+	--ldsm-palette-line-lightblue-600p-hover-color: #1f718c;
+	--ldsm-palette-line-lightblue-600p-highlighted-color: #1b637a;
+	--ldsm-palette-line-lightblue-500p: #3fafc9;
+	--ldsm-palette-line-lightblue-500p-hover-color: #3493a8;
+	--ldsm-palette-line-lightblue-500p-highlighted-color: #2f8396;
+	--ldsm-palette-line-lightblue-400p: #7fc6d6;
+	--ldsm-palette-line-lightblue-400p-hover-color: #6ba7b5;
+	--ldsm-palette-line-lightblue-400p-highlighted-color: #6097a3;
+	--ldsm-palette-line-lightblue-300p: #c1d8de;
+	--ldsm-palette-line-lightblue-300p-hover-color: #95a6ab;
+	--ldsm-palette-line-lightblue-300p-highlighted-color: #738185;
+	--ldsm-palette-line-skyblue-300: #abdcff;
+	--ldsm-palette-line-skyblue-300-hover-color: #89b0cc;
+	--ldsm-palette-line-skyblue-300-highlighted-color: #6f8fa6;
+	--ldsm-palette-line-skyblue-400: #78cbff;
+	--ldsm-palette-line-skyblue-400-hover-color: #60a3cc;
+	--ldsm-palette-line-skyblue-400-highlighted-color: #4e84a6;
+	--ldsm-palette-line-skyblue-500: #40b6ff;
+	--ldsm-palette-line-skyblue-500-hover-color: #3391cc;
+	--ldsm-palette-line-skyblue-500-highlighted-color: #2976a6;
+	--ldsm-palette-line-skyblue-600: #1a9cff;
+	--ldsm-palette-line-skyblue-600-hover-color: #147ccc;
+	--ldsm-palette-line-skyblue-600-highlighted-color: #1165a6;
+	--ldsm-palette-line-skyblue-700: #0279d4;
+	--ldsm-palette-line-skyblue-700-hover-color: #0266b3;
+	--ldsm-palette-line-skyblue-700-highlighted-color: #025ca1;
+	--ldsm-palette-line-skyblue-800: #095796;
+	--ldsm-palette-line-skyblue-800-hover-color: #074475;
+	--ldsm-palette-line-skyblue-800-highlighted-color: #063963;
+	--ldsm-palette-line-skyblue-900: #1c476b;
+	--ldsm-palette-line-skyblue-900-hover-color: #13314a;
+	--ldsm-palette-line-skyblue-900-highlighted-color: #0f2538;
+	--ldsm-palette-line-skyblue-600p: #3f84c4;
+	--ldsm-palette-line-skyblue-600p-hover-color: #346ea3;
+	--ldsm-palette-line-skyblue-600p-highlighted-color: #2f6291;
+	--ldsm-palette-line-skyblue-500p: #5ba2db;
+	--ldsm-palette-line-skyblue-500p-hover-color: #4e8aba;
+	--ldsm-palette-line-skyblue-500p-highlighted-color: #477ca8;
+	--ldsm-palette-line-skyblue-400p: #8fbee3;
+	--ldsm-palette-line-skyblue-400p-hover-color: #6f94b0;
+	--ldsm-palette-line-skyblue-400p-highlighted-color: #57748a;
+	--ldsm-palette-line-skyblue-300p: #c5d6e3;
+	--ldsm-palette-line-skyblue-300p-hover-color: #99a6b0;
+	--ldsm-palette-line-skyblue-300p-highlighted-color: #78828a;
+	--ldsm-palette-line-indigo-300: #cacafc;
+	--ldsm-palette-line-indigo-300-hover-color: #a1a1c9;
+	--ldsm-palette-line-indigo-300-highlighted-color: #8383a3;
+	--ldsm-palette-line-indigo-400: #a2a2fc;
+	--ldsm-palette-line-indigo-400-hover-color: #8181c9;
+	--ldsm-palette-line-indigo-400-highlighted-color: #6868a3;
+	--ldsm-palette-line-indigo-500: #7979f7;
+	--ldsm-palette-line-indigo-500-hover-color: #6060c4;
+	--ldsm-palette-line-indigo-500-highlighted-color: #4d4d9e;
+	--ldsm-palette-line-indigo-600: #5f5fed;
+	--ldsm-palette-line-indigo-600-hover-color: #4a4aba;
+	--ldsm-palette-line-indigo-600-highlighted-color: #3b3b94;
+	--ldsm-palette-line-indigo-700: #4545d1;
+	--ldsm-palette-line-indigo-700-hover-color: #3a3ab0;
+	--ldsm-palette-line-indigo-700-highlighted-color: #34349e;
+	--ldsm-palette-line-indigo-800: #3d389c;
+	--ldsm-palette-line-indigo-800-hover-color: #302c7a;
+	--ldsm-palette-line-indigo-800-highlighted-color: #292669;
+	--ldsm-palette-line-indigo-900: #383878;
+	--ldsm-palette-line-indigo-900-hover-color: #292957;
+	--ldsm-palette-line-indigo-900-highlighted-color: #202045;
+	--ldsm-palette-line-indigo-600p: #5f5fba;
+	--ldsm-palette-line-indigo-600p-hover-color: #4e4e99;
+	--ldsm-palette-line-indigo-600p-highlighted-color: #454587;
+	--ldsm-palette-line-indigo-500p: #7979d9;
+	--ldsm-palette-line-indigo-500p-hover-color: #6767b8;
+	--ldsm-palette-line-indigo-500p-highlighted-color: #5d5da6;
+	--ldsm-palette-line-indigo-400p: #a6a6ed;
+	--ldsm-palette-line-indigo-400p-hover-color: #8282ba;
+	--ldsm-palette-line-indigo-400p-highlighted-color: #686894;
+	--ldsm-palette-line-indigo-300p: #cfcfe5;
+	--ldsm-palette-line-indigo-300p-hover-color: #a1a1b3;
+	--ldsm-palette-line-indigo-300p-highlighted-color: #7e7e8c;
+	--ldsm-palette-line-deeppurple-300: #d4c4f5;
+	--ldsm-palette-line-deeppurple-300-hover-color: #a89bc2;
+	--ldsm-palette-line-deeppurple-300-highlighted-color: #877c9c;
+	--ldsm-palette-line-deeppurple-400: #bd9ff5;
+	--ldsm-palette-line-deeppurple-400-hover-color: #967ec2;
+	--ldsm-palette-line-deeppurple-400-highlighted-color: #78659c;
+	--ldsm-palette-line-deeppurple-500: #a17df5;
+	--ldsm-palette-line-deeppurple-500-hover-color: #7f63c2;
+	--ldsm-palette-line-deeppurple-500-highlighted-color: #664f9c;
+	--ldsm-palette-line-deeppurple-600: #8556e3;
+	--ldsm-palette-line-deeppurple-600-hover-color: #6743b0;
+	--ldsm-palette-line-deeppurple-600-highlighted-color: #51348a;
+	--ldsm-palette-line-deeppurple-700: #6b3cc9;
+	--ldsm-palette-line-deeppurple-700-hover-color: #5a32a8;
+	--ldsm-palette-line-deeppurple-700-highlighted-color: #502d96;
+	--ldsm-palette-line-deeppurple-800: #532f99;
+	--ldsm-palette-line-deeppurple-800-hover-color: #412578;
+	--ldsm-palette-line-deeppurple-800-highlighted-color: #372066;
+	--ldsm-palette-line-deeppurple-900: #47346b;
+	--ldsm-palette-line-deeppurple-900-hover-color: #31244a;
+	--ldsm-palette-line-deeppurple-900-highlighted-color: #261b38;
+	--ldsm-palette-line-deeppurple-600p: #7956b0;
+	--ldsm-palette-line-deeppurple-600p-hover-color: #62468f;
+	--ldsm-palette-line-deeppurple-600p-highlighted-color: #563d7d;
+	--ldsm-palette-line-deeppurple-500p: #9473d6;
+	--ldsm-palette-line-deeppurple-500p-hover-color: #7e62b5;
+	--ldsm-palette-line-deeppurple-500p-highlighted-color: #7158a3;
+	--ldsm-palette-line-deeppurple-400p: #b59fe8;
+	--ldsm-palette-line-deeppurple-400p-hover-color: #8e7db5;
+	--ldsm-palette-line-deeppurple-400p-highlighted-color: #70638f;
+	--ldsm-palette-line-deeppurple-300p: #d3cce5;
+	--ldsm-palette-line-deeppurple-300p-hover-color: #a49fb3;
+	--ldsm-palette-line-deeppurple-300p-highlighted-color: #817d8c;
+	--ldsm-palette-line-purple-300: #edc8f7;
+	--ldsm-palette-line-purple-300-hover-color: #bc9fc4;
+	--ldsm-palette-line-purple-300-highlighted-color: #98809e;
+	--ldsm-palette-line-purple-400: #dd9cf7;
+	--ldsm-palette-line-purple-400-hover-color: #b07cc4;
+	--ldsm-palette-line-purple-400-highlighted-color: #8e649e;
+	--ldsm-palette-line-purple-500: #ce7af0;
+	--ldsm-palette-line-purple-500-hover-color: #a360bd;
+	--ldsm-palette-line-purple-500-highlighted-color: #824d96;
+	--ldsm-palette-line-purple-600: #c355d9;
+	--ldsm-palette-line-purple-600-hover-color: #a548b8;
+	--ldsm-palette-line-purple-600-highlighted-color: #9541a6;
+	--ldsm-palette-line-purple-700: #af36c7;
+	--ldsm-palette-line-purple-700-hover-color: #922da6;
+	--ldsm-palette-line-purple-700-highlighted-color: #822894;
+	--ldsm-palette-line-purple-800: #762d85;
+	--ldsm-palette-line-purple-800-hover-color: #592263;
+	--ldsm-palette-line-purple-800-highlighted-color: #491c52;
+	--ldsm-palette-line-purple-900: #562e5e;
+	--ldsm-palette-line-purple-900-hover-color: #381e3d;
+	--ldsm-palette-line-purple-900-highlighted-color: #28152b;
+	--ldsm-palette-line-purple-600p: #81529e;
+	--ldsm-palette-line-purple-600p-hover-color: #66417d;
+	--ldsm-palette-line-purple-600p-highlighted-color: #57386b;
+	--ldsm-palette-line-purple-500p: #a771c9;
+	--ldsm-palette-line-purple-500p-hover-color: #8c5ea8;
+	--ldsm-palette-line-purple-500p-highlighted-color: #7d5496;
+	--ldsm-palette-line-purple-400p: #c89be0;
+	--ldsm-palette-line-purple-400p-hover-color: #9b78ad;
+	--ldsm-palette-line-purple-400p-highlighted-color: #785d87;
+	--ldsm-palette-line-purple-300p: #dbcce3;
+	--ldsm-palette-line-purple-300p-hover-color: #aa9eb0;
+	--ldsm-palette-line-purple-300p-highlighted-color: #857c8a;
+	--ldsm-palette-line-magenta-300: #fccae7;
+	--ldsm-palette-line-magenta-300-hover-color: #c9a1b9;
+	--ldsm-palette-line-magenta-300-highlighted-color: #a38396;
+	--ldsm-palette-line-magenta-400: #ff9ccd;
+	--ldsm-palette-line-magenta-400-hover-color: #cc7ca4;
+	--ldsm-palette-line-magenta-400-highlighted-color: #a66585;
+	--ldsm-palette-line-magenta-500: #ff70b0;
+	--ldsm-palette-line-magenta-500-hover-color: #cc5a8d;
+	--ldsm-palette-line-magenta-500-highlighted-color: #a64973;
+	--ldsm-palette-line-magenta-600: #f74397;
+	--ldsm-palette-line-magenta-600-hover-color: #c43578;
+	--ldsm-palette-line-magenta-600-highlighted-color: #9e2b61;
+	--ldsm-palette-line-magenta-700: #de2c7f;
+	--ldsm-palette-line-magenta-700-hover-color: #ab2262;
+	--ldsm-palette-line-magenta-700-highlighted-color: #851b4c;
+	--ldsm-palette-line-magenta-800: #bf0659;
+	--ldsm-palette-line-magenta-800-hover-color: #9e054a;
+	--ldsm-palette-line-magenta-800-highlighted-color: #8c0441;
+	--ldsm-palette-line-magenta-900: #8a0e46;
+	--ldsm-palette-line-magenta-900-hover-color: #690a35;
+	--ldsm-palette-line-magenta-900-highlighted-color: #57092c;
+	--ldsm-palette-line-magenta-600p: #c74a82;
+	--ldsm-palette-line-magenta-600p-hover-color: #a63d6c;
+	--ldsm-palette-line-magenta-600p-highlighted-color: #943761;
+	--ldsm-palette-line-magenta-500p: #e569a0;
+	--ldsm-palette-line-magenta-500p-hover-color: #b3527d;
+	--ldsm-palette-line-magenta-500p-highlighted-color: #8c4163;
+	--ldsm-palette-line-magenta-400p: #ed91bc;
+	--ldsm-palette-line-magenta-400p-hover-color: #ba7293;
+	--ldsm-palette-line-magenta-400p-highlighted-color: #945a75;
+	--ldsm-palette-line-magenta-300p: #ebccdd;
+	--ldsm-palette-line-magenta-300p-hover-color: #b8a0ad;
+	--ldsm-palette-line-magenta-300p-highlighted-color: #917e89;
+	--ldsm-palette-line-orange-300: #ffcfbf;
+	--ldsm-palette-line-orange-300-hover-color: #cca699;
+	--ldsm-palette-line-orange-300-highlighted-color: #a6877c;
+	--ldsm-palette-line-orange-400: #ffa182;
+	--ldsm-palette-line-orange-400-hover-color: #cc8168;
+	--ldsm-palette-line-orange-400-highlighted-color: #a66955;
+	--ldsm-palette-line-orange-500: #ff875c;
+	--ldsm-palette-line-orange-500-hover-color: #cc6c49;
+	--ldsm-palette-line-orange-500-highlighted-color: #a6583c;
+	--ldsm-palette-line-orange-600: #ff6f36;
+	--ldsm-palette-line-orange-600-hover-color: #cc592b;
+	--ldsm-palette-line-orange-600-highlighted-color: #a64823;
+	--ldsm-palette-line-orange-700: #ff5e1f;
+	--ldsm-palette-line-orange-700-hover-color: #cc4b18;
+	--ldsm-palette-line-orange-700-highlighted-color: #a63d14;
+	--ldsm-palette-line-orange-800: #f24500;
+	--ldsm-palette-line-orange-800-hover-color: #bf3600;
+	--ldsm-palette-line-orange-800-highlighted-color: #992b00;
+	--ldsm-palette-line-orange-900: #c43100;
+	--ldsm-palette-line-orange-900-hover-color: #a32900;
+	--ldsm-palette-line-orange-900-highlighted-color: #912400;
+	--ldsm-palette-line-orange-600p: #e35f42;
+	--ldsm-palette-line-orange-600p-hover-color: #b04a33;
+	--ldsm-palette-line-orange-600p-highlighted-color: #8a3a28;
+	--ldsm-palette-line-orange-500p: #f5765d;
+	--ldsm-palette-line-orange-500p-hover-color: #c25e4a;
+	--ldsm-palette-line-orange-500p-highlighted-color: #9c4b3b;
+	--ldsm-palette-line-orange-400p: #fa9e7f;
+	--ldsm-palette-line-orange-400p-hover-color: #c77e65;
+	--ldsm-palette-line-orange-400p-highlighted-color: #a16652;
+	--ldsm-palette-line-orange-300p: #fad3c5;
+	--ldsm-palette-line-orange-300p-hover-color: #c7a89d;
+	--ldsm-palette-line-orange-300p-highlighted-color: #a1887f;
+	--ldsm-palette-line-dim-30: rgba(0,0,0,0.3);
+	--ldsm-palette-line-dim-30-hover-color: #404040;
+	--ldsm-palette-line-dim-30-highlighted-color: #737373;
+	--ldsm-palette-line-dim-70: rgba(0,0,0,0.7);
+	--ldsm-palette-line-dim-70-hover-color: #404040;
+	--ldsm-palette-line-dim-70-highlighted-color: #737373;
+	--ldsm-palette-line-dim-85: rgba(0,0,0,0.85);
+	--ldsm-palette-line-dim-85-hover-color: #404040;
+	--ldsm-palette-line-dim-85-highlighted-color: #737373;
+	--ldsm-palette-yahoo-red: #f03;
+	--ldsm-palette-yahoo-red-hover-color: #cc0029;
+	--ldsm-palette-yahoo-red-highlighted-color: #a60021;
+	--ldsm-palette-voom-purple: #5426fc;
+	--ldsm-palette-voom-purple-hover-color: #431ec9;
+	--ldsm-palette-voom-purple-highlighted-color: #3718a3;
+	--ldsm-semantic-default-text: #000;
+	--ldsm-semantic-default-text-hover-color: #404040;
+	--ldsm-semantic-default-text-highlighted-color: #737373;
+	--ldsm-semantic-default-alt-text: #000;
+	--ldsm-semantic-default-alt-text-hover-color: #404040;
+	--ldsm-semantic-default-alt-text-highlighted-color: #737373;
+	--ldsm-semantic-primary-text: #111;
+	--ldsm-semantic-primary-text-hover-color: #525252;
+	--ldsm-semantic-primary-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-alt-text: #111;
+	--ldsm-semantic-primary-alt-text-hover-color: #525252;
+	--ldsm-semantic-primary-alt-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-sub-text: #111;
+	--ldsm-semantic-primary-sub-text-hover-color: #525252;
+	--ldsm-semantic-primary-sub-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-sub-2-text: #111;
+	--ldsm-semantic-primary-sub-2-text-hover-color: #525252;
+	--ldsm-semantic-primary-sub-2-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-sub-3-text: #111;
+	--ldsm-semantic-primary-sub-3-text-hover-color: #525252;
+	--ldsm-semantic-primary-sub-3-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-neutral-text: #111;
+	--ldsm-semantic-primary-neutral-text-hover-color: #525252;
+	--ldsm-semantic-primary-neutral-text-highlighted-color: #858585;
+	--ldsm-semantic-secondary-text: #555;
+	--ldsm-semantic-secondary-text-hover-color: #333;
+	--ldsm-semantic-secondary-text-highlighted-color: #212121;
+	--ldsm-semantic-secondary-alt-text: #3f3f3f;
+	--ldsm-semantic-secondary-alt-text-hover-color: grey;
+	--ldsm-semantic-secondary-alt-text-highlighted-color: #b3b3b3;
+	--ldsm-semantic-secondary-sub-text: #555;
+	--ldsm-semantic-secondary-sub-text-hover-color: #333;
+	--ldsm-semantic-secondary-sub-text-highlighted-color: #212121;
+	--ldsm-semantic-secondary-sub-2-text: #3f3f3f;
+	--ldsm-semantic-secondary-sub-2-text-hover-color: grey;
+	--ldsm-semantic-secondary-sub-2-text-highlighted-color: #b3b3b3;
+	--ldsm-semantic-secondary-sub-3-text: #555;
+	--ldsm-semantic-secondary-sub-3-text-hover-color: #333;
+	--ldsm-semantic-secondary-sub-3-text-highlighted-color: #212121;
+	--ldsm-semantic-tertiary-text: #777;
+	--ldsm-semantic-tertiary-text-hover-color: #575757;
+	--ldsm-semantic-tertiary-text-highlighted-color: #454545;
+	--ldsm-semantic-tertiary-alt-text: #777;
+	--ldsm-semantic-tertiary-alt-text-hover-color: #575757;
+	--ldsm-semantic-tertiary-alt-text-highlighted-color: #454545;
+	--ldsm-semantic-tertiary-sub-text: #777;
+	--ldsm-semantic-tertiary-sub-text-hover-color: #575757;
+	--ldsm-semantic-tertiary-sub-text-highlighted-color: #454545;
+	--ldsm-semantic-tertiary-sub-2-text: #777;
+	--ldsm-semantic-tertiary-sub-2-text-hover-color: #575757;
+	--ldsm-semantic-tertiary-sub-2-text-highlighted-color: #454545;
+	--ldsm-semantic-quaternary-text: #949494;
+	--ldsm-semantic-quaternary-text-hover-color: #737373;
+	--ldsm-semantic-quaternary-text-highlighted-color: #616161;
+	--ldsm-semantic-quaternary-alt-text: #949494;
+	--ldsm-semantic-quaternary-alt-text-hover-color: #737373;
+	--ldsm-semantic-quaternary-alt-text-highlighted-color: #616161;
+	--ldsm-semantic-quaternary-sub-text: #949494;
+	--ldsm-semantic-quaternary-sub-text-hover-color: #737373;
+	--ldsm-semantic-quaternary-sub-text-highlighted-color: #616161;
+	--ldsm-semantic-quinary-text: #b7b7b7;
+	--ldsm-semantic-quinary-text-hover-color: #969696;
+	--ldsm-semantic-quinary-text-highlighted-color: #858585;
+	--ldsm-semantic-quinary-alt-text: #b7b7b7;
+	--ldsm-semantic-quinary-alt-text-hover-color: #969696;
+	--ldsm-semantic-quinary-alt-text-highlighted-color: #858585;
+	--ldsm-semantic-quinary-sub-text: #b7b7b7;
+	--ldsm-semantic-quinary-sub-text-hover-color: #969696;
+	--ldsm-semantic-quinary-sub-text-highlighted-color: #858585;
+	--ldsm-semantic-quinary-sub-2-text: #b7b7b7;
+	--ldsm-semantic-quinary-sub-2-text-hover-color: #969696;
+	--ldsm-semantic-quinary-sub-2-text-highlighted-color: #858585;
+	--ldsm-semantic-senary-text: #2a2a2a;
+	--ldsm-semantic-senary-text-hover-color: #696969;
+	--ldsm-semantic-senary-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-senary-alt-text: #2a2a2a;
+	--ldsm-semantic-senary-alt-text-hover-color: #696969;
+	--ldsm-semantic-senary-alt-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-senary-sub-text: #2a2a2a;
+	--ldsm-semantic-senary-sub-text-hover-color: #696969;
+	--ldsm-semantic-senary-sub-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-septenary-text: #c8c8c8;
+	--ldsm-semantic-septenary-text-hover-color: #a6a6a6;
+	--ldsm-semantic-septenary-text-highlighted-color: #949494;
+	--ldsm-semantic-septenary-alt-text: #c8c8c8;
+	--ldsm-semantic-septenary-alt-text-hover-color: #a6a6a6;
+	--ldsm-semantic-septenary-alt-text-highlighted-color: #949494;
+	--ldsm-semantic-octonary-text: #616161;
+	--ldsm-semantic-octonary-text-hover-color: #404040;
+	--ldsm-semantic-octonary-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-octonary-alt-text: #616161;
+	--ldsm-semantic-octonary-alt-text-hover-color: #404040;
+	--ldsm-semantic-octonary-alt-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-nonary-text: #1f1f1f;
+	--ldsm-semantic-nonary-text-hover-color: #5e5e5e;
+	--ldsm-semantic-nonary-text-highlighted-color: #919191;
+	--ldsm-semantic-nonary-alt-text: #1f1f1f;
+	--ldsm-semantic-nonary-alt-text-hover-color: #5e5e5e;
+	--ldsm-semantic-nonary-alt-text-highlighted-color: #919191;
+	--ldsm-semantic-denary-text: #e8e8e8;
+	--ldsm-semantic-denary-text-hover-color: #b5b5b5;
+	--ldsm-semantic-denary-text-highlighted-color: #8f8f8f;
+	--ldsm-semantic-prominent-text: #ff334b;
+	--ldsm-semantic-prominent-text-hover-color: #cc293c;
+	--ldsm-semantic-prominent-text-highlighted-color: #a62131;
+	--ldsm-semantic-primary-accent-text: #6388ff;
+	--ldsm-semantic-primary-accent-text-hover-color: #506dcc;
+	--ldsm-semantic-primary-accent-text-highlighted-color: #4158a6;
+	--ldsm-semantic-secondary-accent-text: #4d73ff;
+	--ldsm-semantic-secondary-accent-text-hover-color: #3d5ccc;
+	--ldsm-semantic-secondary-accent-text-highlighted-color: #324ba6;
+	--ldsm-semantic-branding-text: #06c755;
+	--ldsm-semantic-branding-text-hover-color: #05a648;
+	--ldsm-semantic-branding-text-highlighted-color: #049440;
+	--ldsm-semantic-placeholder-text: #dfdfdf;
+	--ldsm-semantic-placeholder-text-hover-color: #ababab;
+	--ldsm-semantic-placeholder-text-highlighted-color: #858585;
+	--ldsm-semantic-sub-placeholder-text: #dfdfdf;
+	--ldsm-semantic-sub-placeholder-text-hover-color: #ababab;
+	--ldsm-semantic-sub-placeholder-text-highlighted-color: #858585;
+	--ldsm-semantic-secondary-placeholder-text: #b7b7b7;
+	--ldsm-semantic-secondary-placeholder-text-hover-color: #969696;
+	--ldsm-semantic-secondary-placeholder-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-link: #4d73ff;
+	--ldsm-semantic-secondary-link: #2c53de;
+	--ldsm-semantic-primary-fill: #06c755;
+	--ldsm-semantic-primary-fill-hover-color: #05a648;
+	--ldsm-semantic-primary-fill-highlighted-color: #049440;
+	--ldsm-semantic-on-primary-fill: #fff;
+	--ldsm-semantic-on-primary-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-primary-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-prominent-fill: #ff334b;
+	--ldsm-semantic-prominent-fill-hover-color: #cc293c;
+	--ldsm-semantic-prominent-fill-highlighted-color: #a62131;
+	--ldsm-semantic-secondary-prominent-fill: #ff697a;
+	--ldsm-semantic-secondary-prominent-fill-hover-color: #cc5462;
+	--ldsm-semantic-secondary-prominent-fill-highlighted-color: #a6444f;
+	--ldsm-semantic-on-prominent-fill: #fff;
+	--ldsm-semantic-on-prominent-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-prominent-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-secondary-fill: #707991;
+	--ldsm-semantic-secondary-fill-hover-color: #565d70;
+	--ldsm-semantic-secondary-fill-highlighted-color: #494e5e;
+	--ldsm-semantic-tertiary-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-alt-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-alt-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-alt-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-sub-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-sub-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-2-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-sub-2-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-sub-2-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-3-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-sub-3-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-sub-3-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-4-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-sub-4-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-sub-4-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-6-fill: #dfdfdf;
+	--ldsm-semantic-tertiary-sub-6-fill-hover-color: #ababab;
+	--ldsm-semantic-tertiary-sub-6-fill-highlighted-color: #858585;
+	--ldsm-semantic-on-tertiary-fill: #777;
+	--ldsm-semantic-on-tertiary-fill-hover-color: #575757;
+	--ldsm-semantic-on-tertiary-fill-highlighted-color: #454545;
+	--ldsm-semantic-quaternary-fill: #efefef;
+	--ldsm-semantic-quaternary-fill-hover-color: #bdbdbd;
+	--ldsm-semantic-quaternary-fill-highlighted-color: #969696;
+	--ldsm-semantic-quaternary-alt-fill: #efefef;
+	--ldsm-semantic-quaternary-alt-fill-hover-color: #bdbdbd;
+	--ldsm-semantic-quaternary-alt-fill-highlighted-color: #969696;
+	--ldsm-semantic-on-quaternary-fill: #777;
+	--ldsm-semantic-on-quaternary-fill-hover-color: #575757;
+	--ldsm-semantic-on-quaternary-fill-highlighted-color: #454545;
+	--ldsm-semantic-quinary-fill: #e8e8e8;
+	--ldsm-semantic-quinary-fill-hover-color: #b5b5b5;
+	--ldsm-semantic-quinary-fill-highlighted-color: #8f8f8f;
+	--ldsm-semantic-quinary-alt-fill: #e8e8e8;
+	--ldsm-semantic-quinary-alt-fill-hover-color: #b5b5b5;
+	--ldsm-semantic-quinary-alt-fill-highlighted-color: #8f8f8f;
+	--ldsm-semantic-quinary-sub-fill: #e8e8e8;
+	--ldsm-semantic-quinary-sub-fill-hover-color: #b5b5b5;
+	--ldsm-semantic-quinary-sub-fill-highlighted-color: #8f8f8f;
+	--ldsm-semantic-quinary-sub-2-fill: #e8e8e8;
+	--ldsm-semantic-quinary-sub-2-fill-hover-color: #b5b5b5;
+	--ldsm-semantic-quinary-sub-2-fill-highlighted-color: #8f8f8f;
+	--ldsm-semantic-primary-neutral-fill: #efefef;
+	--ldsm-semantic-primary-neutral-fill-hover-color: #bdbdbd;
+	--ldsm-semantic-primary-neutral-fill-highlighted-color: #969696;
+	--ldsm-semantic-primary-alt-neutral-fill: #efefef;
+	--ldsm-semantic-primary-alt-neutral-fill-hover-color: #bdbdbd;
+	--ldsm-semantic-primary-alt-neutral-fill-highlighted-color: #969696;
+	--ldsm-semantic-on-primary-neutral-fill: #777;
+	--ldsm-semantic-on-primary-neutral-fill-hover-color: #575757;
+	--ldsm-semantic-on-primary-neutral-fill-highlighted-color: #454545;
+	--ldsm-semantic-primary-sub-neutral-fill: #efefef;
+	--ldsm-semantic-primary-sub-neutral-fill-hover-color: #bdbdbd;
+	--ldsm-semantic-primary-sub-neutral-fill-highlighted-color: #969696;
+	--ldsm-semantic-secondary-neutral-fill: #c8c8c8;
+	--ldsm-semantic-secondary-neutral-fill-hover-color: #a6a6a6;
+	--ldsm-semantic-secondary-neutral-fill-highlighted-color: #949494;
+	--ldsm-semantic-secondary-alt-neutral-fill: #c8c8c8;
+	--ldsm-semantic-secondary-alt-neutral-fill-hover-color: #a6a6a6;
+	--ldsm-semantic-secondary-alt-neutral-fill-highlighted-color: #949494;
+	--ldsm-semantic-secondary-sub-neutral-fill: #c8c8c8;
+	--ldsm-semantic-secondary-sub-neutral-fill-hover-color: #a6a6a6;
+	--ldsm-semantic-secondary-sub-neutral-fill-highlighted-color: #949494;
+	--ldsm-semantic-tertiary-neutral-fill: #b7b7b7;
+	--ldsm-semantic-tertiary-neutral-fill-hover-color: #969696;
+	--ldsm-semantic-tertiary-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-alt-neutral-fill: #b7b7b7;
+	--ldsm-semantic-tertiary-alt-neutral-fill-hover-color: #969696;
+	--ldsm-semantic-tertiary-alt-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-neutral-fill: #b7b7b7;
+	--ldsm-semantic-tertiary-sub-neutral-fill-hover-color: #969696;
+	--ldsm-semantic-tertiary-sub-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-tertiary-sub-2-neutral-fill: #b7b7b7;
+	--ldsm-semantic-tertiary-sub-2-neutral-fill-hover-color: #969696;
+	--ldsm-semantic-tertiary-sub-2-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-quaternary-neutral-fill: #949494;
+	--ldsm-semantic-quaternary-neutral-fill-hover-color: #737373;
+	--ldsm-semantic-quaternary-neutral-fill-highlighted-color: #616161;
+	--ldsm-semantic-quaternary-alt-neutral-fill: #949494;
+	--ldsm-semantic-quaternary-alt-neutral-fill-hover-color: #737373;
+	--ldsm-semantic-quaternary-alt-neutral-fill-highlighted-color: #616161;
+	--ldsm-semantic-quaternary-sub-neutral-fill: #949494;
+	--ldsm-semantic-quaternary-sub-neutral-fill-hover-color: #737373;
+	--ldsm-semantic-quaternary-sub-neutral-fill-highlighted-color: #616161;
+	--ldsm-semantic-quinary-neutral-fill: #777;
+	--ldsm-semantic-quinary-neutral-fill-hover-color: #575757;
+	--ldsm-semantic-quinary-neutral-fill-highlighted-color: #454545;
+	--ldsm-semantic-senary-neutral-fill: #555;
+	--ldsm-semantic-senary-neutral-fill-hover-color: #333;
+	--ldsm-semantic-senary-neutral-fill-highlighted-color: #212121;
+	--ldsm-semantic-senary-sub-2-neutral-fill: #3f3f3f;
+	--ldsm-semantic-senary-sub-2-neutral-fill-hover-color: grey;
+	--ldsm-semantic-senary-sub-2-neutral-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-septenary-neutral-fill: #2a2a2a;
+	--ldsm-semantic-septenary-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-septenary-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-septenary-alt-neutral-fill: #2a2a2a;
+	--ldsm-semantic-septenary-alt-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-septenary-alt-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-septenary-sub-neutral-fill: #2a2a2a;
+	--ldsm-semantic-septenary-sub-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-septenary-sub-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-septenary-sub-2-neutral-fill: #2a2a2a;
+	--ldsm-semantic-septenary-sub-2-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-septenary-sub-2-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-octonary-alt-neutral-fill: #111;
+	--ldsm-semantic-octonary-alt-neutral-fill-hover-color: #525252;
+	--ldsm-semantic-octonary-alt-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-octonary-sub-neutral-fill: #111;
+	--ldsm-semantic-octonary-sub-neutral-fill-hover-color: #525252;
+	--ldsm-semantic-octonary-sub-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-octonary-sub-2-neutral-fill: #111;
+	--ldsm-semantic-octonary-sub-2-neutral-fill-hover-color: #525252;
+	--ldsm-semantic-octonary-sub-2-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-nonary-neutral-fill: #616161;
+	--ldsm-semantic-nonary-neutral-fill-hover-color: #404040;
+	--ldsm-semantic-nonary-neutral-fill-highlighted-color: #2e2e2e;
+	--ldsm-semantic-default-neutral-fill: #fff;
+	--ldsm-semantic-default-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-default-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-default-alt-neutral-fill: #fff;
+	--ldsm-semantic-default-alt-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-default-alt-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-default-sub-neutral-fill: #fff;
+	--ldsm-semantic-default-sub-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-default-sub-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-default-sub-2-neutral-fill: #fff;
+	--ldsm-semantic-default-sub-2-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-default-sub-2-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-light-neutral-fill: #f5f5f5;
+	--ldsm-semantic-light-neutral-fill-hover-color: #c2c2c2;
+	--ldsm-semantic-light-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-light-alt-neutral-fill: #f5f5f5;
+	--ldsm-semantic-light-alt-neutral-fill-hover-color: #c2c2c2;
+	--ldsm-semantic-light-alt-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-light-sub-neutral-fill: #f5f5f5;
+	--ldsm-semantic-light-sub-neutral-fill-hover-color: #c2c2c2;
+	--ldsm-semantic-light-sub-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-on-light-neutral-fill: #949494;
+	--ldsm-semantic-on-light-neutral-fill-hover-color: #737373;
+	--ldsm-semantic-on-light-neutral-fill-highlighted-color: #616161;
+	--ldsm-semantic-basic-neutral-fill: #fff;
+	--ldsm-semantic-basic-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-basic-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-primary-accent-fill: #6388ff;
+	--ldsm-semantic-primary-accent-fill-hover-color: #506dcc;
+	--ldsm-semantic-primary-accent-fill-highlighted-color: #4158a6;
+	--ldsm-semantic-on-primary-accent-fill: #fff;
+	--ldsm-semantic-on-primary-accent-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-primary-accent-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-secondary-accent-fill: #96b1ff;
+	--ldsm-semantic-secondary-accent-fill-hover-color: #788dcc;
+	--ldsm-semantic-secondary-accent-fill-highlighted-color: #6273a6;
+	--ldsm-semantic-on-secondary-accent-fill: #fff;
+	--ldsm-semantic-on-secondary-accent-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-secondary-accent-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-tertiary-accent-fill: #4d73ff;
+	--ldsm-semantic-tertiary-accent-fill-hover-color: #3d5ccc;
+	--ldsm-semantic-tertiary-accent-fill-highlighted-color: #324ba6;
+	--ldsm-semantic-primary-inverse-fill: #000;
+	--ldsm-semantic-primary-inverse-fill-hover-color: #404040;
+	--ldsm-semantic-primary-inverse-fill-highlighted-color: #737373;
+	--ldsm-semantic-on-primary-inverse-fill: #fff;
+	--ldsm-semantic-on-primary-inverse-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-primary-inverse-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-secondary-inverse-fill: #2a2a2a;
+	--ldsm-semantic-secondary-inverse-fill-hover-color: #696969;
+	--ldsm-semantic-secondary-inverse-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-on-secondary-inverse-fill: #efefef;
+	--ldsm-semantic-on-secondary-inverse-fill-hover-color: #bdbdbd;
+	--ldsm-semantic-on-secondary-inverse-fill-highlighted-color: #969696;
+	--ldsm-semantic-tertiary-inverse-fill: #111;
+	--ldsm-semantic-tertiary-inverse-fill-hover-color: #525252;
+	--ldsm-semantic-tertiary-inverse-fill-highlighted-color: #858585;
+	--ldsm-semantic-primary-highlighted-fill: #fff200;
+	--ldsm-semantic-primary-highlighted-fill-hover-color: #ccc200;
+	--ldsm-semantic-primary-highlighted-fill-highlighted-color: #a69d00;
+	--ldsm-semantic-secondary-highlighted-fill: #fdffe5;
+	--ldsm-semantic-secondary-highlighted-fill-hover-color: #caccb8;
+	--ldsm-semantic-secondary-highlighted-fill-highlighted-color: #a4a695;
+	--ldsm-semantic-primary-background: #fff;
+	--ldsm-semantic-secondary-background: #fcfcfc;
+	--ldsm-semantic-tertiary-background: #f5f5f5;
+	--ldsm-semantic-tertiary-alt-background: #f5f5f5;
+	--ldsm-semantic-tertiary-sub-background: #f5f5f5;
+	--ldsm-semantic-secondary-alt-background: #fcfcfc;
+	--ldsm-semantic-primary-surface: #fff;
+	--ldsm-semantic-primary-surface-pressed: #f5f5f5;
+	--ldsm-semantic-primary-surface-alt-pressed: rgba(0,0,0,0.03);
+	--ldsm-semantic-primary-surface-sub-pressed: #f5f5f5;
+	--ldsm-semantic-primary-alt-surface: #fff;
+	--ldsm-semantic-primary-sub-surface: #fff;
+	--ldsm-semantic-popup-surface: #fff;
+	--ldsm-semantic-popup-alt-surface: #fff;
+	--ldsm-semantic-context-menu-surface: #2a2a2a;
+	--ldsm-semantic-primary-separator: #efefef;
+	--ldsm-semantic-primary-alt-separator: #efefef;
+	--ldsm-semantic-secondary-separator: #dfdfdf;
+	--ldsm-semantic-tertiary-separator: #f5f5f5;
+	--ldsm-semantic-quaternary-separator: #c8c8c8;
+	--ldsm-semantic-light: #fff;
+	--ldsm-semantic-light-pressed: hsla(0,0%,100%,0.45);
+	--ldsm-semantic-secondary-light: #efefef;
+	--ldsm-semantic-tertiary-light: #dfdfdf;
+	--ldsm-semantic-default-dark: #000;
+	--ldsm-semantic-primary-dark: #111;
+	--ldsm-semantic-tertiary-dark: #777;
+	--ldsm-semantic-quaternary-dark: #949494;
+	--ldsm-semantic-quinary-dark: #616161;
+	--ldsm-semantic-senary-dark: #2a2a2a;
+	--ldsm-semantic-primary-disabled: hsla(0,0%,100%,0.4);
+	--ldsm-semantic-primary-alt-disabled: #fff;
+	--ldsm-semantic-primary-sub-disabled: hsla(0,0%,100%,0.4);
+	--ldsm-semantic-secondary-disabled: rgba(17,17,17,0.4);
+	--ldsm-semantic-secondary-alt-disabled: rgba(0,0,0,0.2);
+	--ldsm-semantic-chat-background: #8cabd8;
+	--ldsm-semantic-chat-bubble-surface: #6de67b;
+	--ldsm-semantic-secondary-on-chat-bubble-surface: #1e6e1e;
+	--ldsm-semantic-tertiary-on-chat-bubble-surface: #3d9e43;
+	--ldsm-semantic-chat-bubble-separator: #58db67;
+	--ldsm-semantic-chat-bubble-content-fill: #5bdd6a;
+	--ldsm-semantic-chat-bubble-content-fill-hover-color: #46ab52;
+	--ldsm-semantic-chat-bubble-content-fill-highlighted-color: #36853f;
+	--ldsm-semantic-primary-legacy-fill: #202a43;
+	--ldsm-semantic-primary-legacy-fill-hover-color: #3e5282;
+	--ldsm-semantic-primary-legacy-fill-highlighted-color: #5772b5;
+	--ldsm-semantic-quinary-legacy-fill: #707991;
+	--ldsm-semantic-quinary-legacy-fill-hover-color: #565d70;
+	--ldsm-semantic-quinary-legacy-fill-highlighted-color: #494e5e;
+	--ldsm-semantic-secondary-on-legacy-fill: #98a0b3;
+	--ldsm-semantic-secondary-on-legacy-fill-hover-color: #7c8291;
+	--ldsm-semantic-secondary-on-legacy-fill-highlighted-color: #6c7280;
+	--ldsm-semantic-primary-legacy-text: #464f69;
+	--ldsm-semantic-primary-legacy-text-hover-color: #303647;
+	--ldsm-semantic-primary-legacy-text-highlighted-color: #242836;
+	--ldsm-semantic-secondary-legacy-text: #707991;
+	--ldsm-semantic-secondary-legacy-text-hover-color: #565d70;
+	--ldsm-semantic-secondary-legacy-text-highlighted-color: #494e5e;
+	--ldsm-semantic-additional-text: #fff;
+	--ldsm-semantic-additional-text-hover-color: #fcfcfc;
+	--ldsm-semantic-additional-text-highlighted-color: #f5f5f5;
+	--ldsm-semantic-swipe-fill: #35db80;
+	--ldsm-semantic-swipe-fill-hover-color: #2dba6c;
+	--ldsm-semantic-swipe-fill-highlighted-color: #28a862;
+	--ldsm-semantic-splash-background: #06c755
+}
+
+:root.dark
+{
+	--ldsm-semantic-default-text: #fff;
+	--ldsm-semantic-default-text-hover-color: #fcfcfc;
+	--ldsm-semantic-default-text-highlighted-color: #f5f5f5;
+	--ldsm-semantic-default-alt-text: #777;
+	--ldsm-semantic-default-alt-text-hover-color: #575757;
+	--ldsm-semantic-default-alt-text-highlighted-color: #454545;
+	--ldsm-semantic-primary-text: #fff;
+	--ldsm-semantic-primary-text-hover-color: #fcfcfc;
+	--ldsm-semantic-primary-text-highlighted-color: #f5f5f5;
+	--ldsm-semantic-primary-alt-text: #dfdfdf;
+	--ldsm-semantic-primary-alt-text-hover-color: #ababab;
+	--ldsm-semantic-primary-alt-text-highlighted-color: #858585;
+	--ldsm-semantic-primary-sub-text: #949494;
+	--ldsm-semantic-primary-sub-text-hover-color: #737373;
+	--ldsm-semantic-primary-sub-text-highlighted-color: #616161;
+	--ldsm-semantic-primary-sub-2-text: #efefef;
+	--ldsm-semantic-primary-sub-2-text-hover-color: #bdbdbd;
+	--ldsm-semantic-primary-sub-2-text-highlighted-color: #969696;
+	--ldsm-semantic-primary-sub-3-text: #f5f5f5;
+	--ldsm-semantic-primary-sub-3-text-hover-color: #c2c2c2;
+	--ldsm-semantic-primary-sub-3-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-primary-neutral-text: #616161;
+	--ldsm-semantic-primary-neutral-text-hover-color: #404040;
+	--ldsm-semantic-primary-neutral-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-secondary-text: #b7b7b7;
+	--ldsm-semantic-secondary-text-hover-color: #969696;
+	--ldsm-semantic-secondary-text-highlighted-color: #858585;
+	--ldsm-semantic-secondary-alt-text: #949494;
+	--ldsm-semantic-secondary-alt-text-hover-color: #737373;
+	--ldsm-semantic-secondary-alt-text-highlighted-color: #616161;
+	--ldsm-semantic-secondary-sub-text: #949494;
+	--ldsm-semantic-secondary-sub-text-hover-color: #737373;
+	--ldsm-semantic-secondary-sub-text-highlighted-color: #616161;
+	--ldsm-semantic-secondary-sub-2-text: #777;
+	--ldsm-semantic-secondary-sub-2-text-hover-color: #575757;
+	--ldsm-semantic-secondary-sub-2-text-highlighted-color: #454545;
+	--ldsm-semantic-secondary-sub-3-text: #616161;
+	--ldsm-semantic-secondary-sub-3-text-hover-color: #404040;
+	--ldsm-semantic-secondary-sub-3-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-tertiary-text: #777;
+	--ldsm-semantic-tertiary-text-hover-color: #575757;
+	--ldsm-semantic-tertiary-text-highlighted-color: #454545;
+	--ldsm-semantic-tertiary-alt-text: #949494;
+	--ldsm-semantic-tertiary-alt-text-hover-color: #737373;
+	--ldsm-semantic-tertiary-alt-text-highlighted-color: #616161;
+	--ldsm-semantic-tertiary-sub-text: #555;
+	--ldsm-semantic-tertiary-sub-text-hover-color: #333;
+	--ldsm-semantic-tertiary-sub-text-highlighted-color: #212121;
+	--ldsm-semantic-tertiary-sub-2-text: #e8e8e8;
+	--ldsm-semantic-tertiary-sub-2-text-hover-color: #b5b5b5;
+	--ldsm-semantic-tertiary-sub-2-text-highlighted-color: #8f8f8f;
+	--ldsm-semantic-quaternary-text: #777;
+	--ldsm-semantic-quaternary-text-hover-color: #575757;
+	--ldsm-semantic-quaternary-text-highlighted-color: #454545;
+	--ldsm-semantic-quaternary-alt-text: #616161;
+	--ldsm-semantic-quaternary-alt-text-hover-color: #404040;
+	--ldsm-semantic-quaternary-alt-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-quaternary-sub-text: #555;
+	--ldsm-semantic-quaternary-sub-text-hover-color: #333;
+	--ldsm-semantic-quaternary-sub-text-highlighted-color: #212121;
+	--ldsm-semantic-quinary-text: #555;
+	--ldsm-semantic-quinary-text-hover-color: #333;
+	--ldsm-semantic-quinary-text-highlighted-color: #212121;
+	--ldsm-semantic-quinary-alt-text: #616161;
+	--ldsm-semantic-quinary-alt-text-hover-color: #404040;
+	--ldsm-semantic-quinary-alt-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-quinary-sub-text: #3f3f3f;
+	--ldsm-semantic-quinary-sub-text-hover-color: grey;
+	--ldsm-semantic-quinary-sub-text-highlighted-color: #b3b3b3;
+	--ldsm-semantic-quinary-sub-2-text: #949494;
+	--ldsm-semantic-quinary-sub-2-text-hover-color: #737373;
+	--ldsm-semantic-quinary-sub-2-text-highlighted-color: #616161;
+	--ldsm-semantic-senary-text: #616161;
+	--ldsm-semantic-senary-text-hover-color: #404040;
+	--ldsm-semantic-senary-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-senary-alt-text: #949494;
+	--ldsm-semantic-senary-alt-text-hover-color: #737373;
+	--ldsm-semantic-senary-alt-text-highlighted-color: #616161;
+	--ldsm-semantic-senary-sub-text: #e8e8e8;
+	--ldsm-semantic-senary-sub-text-hover-color: #b5b5b5;
+	--ldsm-semantic-senary-sub-text-highlighted-color: #8f8f8f;
+	--ldsm-semantic-septenary-text: #616161;
+	--ldsm-semantic-septenary-text-hover-color: #404040;
+	--ldsm-semantic-septenary-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-septenary-alt-text: #3f3f3f;
+	--ldsm-semantic-septenary-alt-text-hover-color: grey;
+	--ldsm-semantic-septenary-alt-text-highlighted-color: #b3b3b3;
+	--ldsm-semantic-octonary-text: #949494;
+	--ldsm-semantic-octonary-text-hover-color: #737373;
+	--ldsm-semantic-octonary-text-highlighted-color: #616161;
+	--ldsm-semantic-octonary-alt-text: #777;
+	--ldsm-semantic-octonary-alt-text-hover-color: #575757;
+	--ldsm-semantic-octonary-alt-text-highlighted-color: #454545;
+	--ldsm-semantic-nonary-text: #efefef;
+	--ldsm-semantic-nonary-text-hover-color: #bdbdbd;
+	--ldsm-semantic-nonary-text-highlighted-color: #969696;
+	--ldsm-semantic-nonary-alt-text: #f5f5f5;
+	--ldsm-semantic-nonary-alt-text-hover-color: #c2c2c2;
+	--ldsm-semantic-nonary-alt-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-denary-text: #2a2a2a;
+	--ldsm-semantic-denary-text-hover-color: #696969;
+	--ldsm-semantic-denary-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-prominent-text: #ff334b;
+	--ldsm-semantic-prominent-text-hover-color: #cc293c;
+	--ldsm-semantic-prominent-text-highlighted-color: #a62131;
+	--ldsm-semantic-primary-accent-text: #6388ff;
+	--ldsm-semantic-primary-accent-text-hover-color: #506dcc;
+	--ldsm-semantic-primary-accent-text-highlighted-color: #4158a6;
+	--ldsm-semantic-secondary-accent-text: #4d73ff;
+	--ldsm-semantic-secondary-accent-text-hover-color: #3d5ccc;
+	--ldsm-semantic-secondary-accent-text-highlighted-color: #324ba6;
+	--ldsm-semantic-branding-text: #06c755;
+	--ldsm-semantic-branding-text-hover-color: #05a648;
+	--ldsm-semantic-branding-text-highlighted-color: #049440;
+	--ldsm-semantic-placeholder-text: #2a2a2a;
+	--ldsm-semantic-placeholder-text-hover-color: #696969;
+	--ldsm-semantic-placeholder-text-highlighted-color: #9c9c9c;
+	--ldsm-semantic-sub-placeholder-text: #3f3f3f;
+	--ldsm-semantic-sub-placeholder-text-hover-color: grey;
+	--ldsm-semantic-sub-placeholder-text-highlighted-color: #b3b3b3;
+	--ldsm-semantic-secondary-placeholder-text: #555;
+	--ldsm-semantic-secondary-placeholder-text-hover-color: #333;
+	--ldsm-semantic-secondary-placeholder-text-highlighted-color: #212121;
+	--ldsm-semantic-primary-link: #4d73ff;
+	--ldsm-semantic-secondary-link: #2c53de;
+	--ldsm-semantic-primary-fill: #06c755;
+	--ldsm-semantic-primary-fill-hover-color: #05a648;
+	--ldsm-semantic-primary-fill-highlighted-color: #049440;
+	--ldsm-semantic-on-primary-fill: #fff;
+	--ldsm-semantic-on-primary-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-primary-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-prominent-fill: #ff334b;
+	--ldsm-semantic-prominent-fill-hover-color: #cc293c;
+	--ldsm-semantic-prominent-fill-highlighted-color: #a62131;
+	--ldsm-semantic-secondary-prominent-fill: #ff697a;
+	--ldsm-semantic-secondary-prominent-fill-hover-color: #cc5462;
+	--ldsm-semantic-secondary-prominent-fill-highlighted-color: #a6444f;
+	--ldsm-semantic-on-prominent-fill: #fff;
+	--ldsm-semantic-on-prominent-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-prominent-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-secondary-fill: #323b54;
+	--ldsm-semantic-secondary-fill-hover-color: #1f2433;
+	--ldsm-semantic-secondary-fill-highlighted-color: #141721;
+	--ldsm-semantic-tertiary-fill: #2a2a2a;
+	--ldsm-semantic-tertiary-fill-hover-color: #696969;
+	--ldsm-semantic-tertiary-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-tertiary-alt-fill: #3f3f3f;
+	--ldsm-semantic-tertiary-alt-fill-hover-color: grey;
+	--ldsm-semantic-tertiary-alt-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-tertiary-sub-fill: #777;
+	--ldsm-semantic-tertiary-sub-fill-hover-color: #575757;
+	--ldsm-semantic-tertiary-sub-fill-highlighted-color: #454545;
+	--ldsm-semantic-tertiary-sub-2-fill: #fcfcfc;
+	--ldsm-semantic-tertiary-sub-2-fill-hover-color: #c9c9c9;
+	--ldsm-semantic-tertiary-sub-2-fill-highlighted-color: #a3a3a3;
+	--ldsm-semantic-tertiary-sub-3-fill: #616161;
+	--ldsm-semantic-tertiary-sub-3-fill-hover-color: #404040;
+	--ldsm-semantic-tertiary-sub-3-fill-highlighted-color: #2e2e2e;
+	--ldsm-semantic-tertiary-sub-4-fill: #383838;
+	--ldsm-semantic-tertiary-sub-4-fill-hover-color: #787878;
+	--ldsm-semantic-tertiary-sub-4-fill-highlighted-color: #ababab;
+	--ldsm-semantic-tertiary-sub-6-fill: #949494;
+	--ldsm-semantic-tertiary-sub-6-fill-hover-color: #737373;
+	--ldsm-semantic-tertiary-sub-6-fill-highlighted-color: #616161;
+	--ldsm-semantic-on-tertiary-fill: #777;
+	--ldsm-semantic-on-tertiary-fill-hover-color: #575757;
+	--ldsm-semantic-on-tertiary-fill-highlighted-color: #454545;
+	--ldsm-semantic-quaternary-fill: #3f3f3f;
+	--ldsm-semantic-quaternary-fill-hover-color: grey;
+	--ldsm-semantic-quaternary-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-quaternary-alt-fill: #777;
+	--ldsm-semantic-quaternary-alt-fill-hover-color: #575757;
+	--ldsm-semantic-quaternary-alt-fill-highlighted-color: #454545;
+	--ldsm-semantic-on-quaternary-fill: #b7b7b7;
+	--ldsm-semantic-on-quaternary-fill-hover-color: #969696;
+	--ldsm-semantic-on-quaternary-fill-highlighted-color: #858585;
+	--ldsm-semantic-quinary-fill: #1f1f1f;
+	--ldsm-semantic-quinary-fill-hover-color: #5e5e5e;
+	--ldsm-semantic-quinary-fill-highlighted-color: #919191;
+	--ldsm-semantic-quinary-alt-fill: #3f3f3f;
+	--ldsm-semantic-quinary-alt-fill-hover-color: grey;
+	--ldsm-semantic-quinary-alt-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-quinary-sub-fill: #2a2a2a;
+	--ldsm-semantic-quinary-sub-fill-hover-color: #696969;
+	--ldsm-semantic-quinary-sub-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-quinary-sub-2-fill: #555;
+	--ldsm-semantic-quinary-sub-2-fill-hover-color: #333;
+	--ldsm-semantic-quinary-sub-2-fill-highlighted-color: #212121;
+	--ldsm-semantic-primary-neutral-fill: #2a2a2a;
+	--ldsm-semantic-primary-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-primary-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-primary-alt-neutral-fill: #111;
+	--ldsm-semantic-primary-alt-neutral-fill-hover-color: #525252;
+	--ldsm-semantic-primary-alt-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-on-primary-neutral-fill: #777;
+	--ldsm-semantic-on-primary-neutral-fill-hover-color: #575757;
+	--ldsm-semantic-on-primary-neutral-fill-highlighted-color: #454545;
+	--ldsm-semantic-primary-sub-neutral-fill: #555;
+	--ldsm-semantic-primary-sub-neutral-fill-hover-color: #333;
+	--ldsm-semantic-primary-sub-neutral-fill-highlighted-color: #212121;
+	--ldsm-semantic-secondary-neutral-fill: #555;
+	--ldsm-semantic-secondary-neutral-fill-hover-color: #333;
+	--ldsm-semantic-secondary-neutral-fill-highlighted-color: #212121;
+	--ldsm-semantic-secondary-alt-neutral-fill: #616161;
+	--ldsm-semantic-secondary-alt-neutral-fill-hover-color: #404040;
+	--ldsm-semantic-secondary-alt-neutral-fill-highlighted-color: #2e2e2e;
+	--ldsm-semantic-secondary-sub-neutral-fill: #3f3f3f;
+	--ldsm-semantic-secondary-sub-neutral-fill-hover-color: grey;
+	--ldsm-semantic-secondary-sub-neutral-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-tertiary-neutral-fill: #555;
+	--ldsm-semantic-tertiary-neutral-fill-hover-color: #333;
+	--ldsm-semantic-tertiary-neutral-fill-highlighted-color: #212121;
+	--ldsm-semantic-tertiary-alt-neutral-fill: #2a2a2a;
+	--ldsm-semantic-tertiary-alt-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-tertiary-alt-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-tertiary-sub-neutral-fill: #616161;
+	--ldsm-semantic-tertiary-sub-neutral-fill-hover-color: #404040;
+	--ldsm-semantic-tertiary-sub-neutral-fill-highlighted-color: #2e2e2e;
+	--ldsm-semantic-tertiary-sub-2-neutral-fill: #3f3f3f;
+	--ldsm-semantic-tertiary-sub-2-neutral-fill-hover-color: grey;
+	--ldsm-semantic-tertiary-sub-2-neutral-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-quaternary-neutral-fill: #3f3f3f;
+	--ldsm-semantic-quaternary-neutral-fill-hover-color: grey;
+	--ldsm-semantic-quaternary-neutral-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-quaternary-alt-neutral-fill: #777;
+	--ldsm-semantic-quaternary-alt-neutral-fill-hover-color: #575757;
+	--ldsm-semantic-quaternary-alt-neutral-fill-highlighted-color: #454545;
+	--ldsm-semantic-quaternary-sub-neutral-fill: #616161;
+	--ldsm-semantic-quaternary-sub-neutral-fill-hover-color: #404040;
+	--ldsm-semantic-quaternary-sub-neutral-fill-highlighted-color: #2e2e2e;
+	--ldsm-semantic-quinary-neutral-fill: #777;
+	--ldsm-semantic-quinary-neutral-fill-hover-color: #575757;
+	--ldsm-semantic-quinary-neutral-fill-highlighted-color: #454545;
+	--ldsm-semantic-senary-neutral-fill: #949494;
+	--ldsm-semantic-senary-neutral-fill-hover-color: #737373;
+	--ldsm-semantic-senary-neutral-fill-highlighted-color: #616161;
+	--ldsm-semantic-senary-sub-2-neutral-fill: #c8c8c8;
+	--ldsm-semantic-senary-sub-2-neutral-fill-hover-color: #a6a6a6;
+	--ldsm-semantic-senary-sub-2-neutral-fill-highlighted-color: #949494;
+	--ldsm-semantic-septenary-neutral-fill: #b7b7b7;
+	--ldsm-semantic-septenary-neutral-fill-hover-color: #969696;
+	--ldsm-semantic-septenary-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-septenary-alt-neutral-fill: #dfdfdf;
+	--ldsm-semantic-septenary-alt-neutral-fill-hover-color: #ababab;
+	--ldsm-semantic-septenary-alt-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-septenary-sub-neutral-fill: #fff;
+	--ldsm-semantic-septenary-sub-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-septenary-sub-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-septenary-sub-2-neutral-fill: #e8e8e8;
+	--ldsm-semantic-septenary-sub-2-neutral-fill-hover-color: #b5b5b5;
+	--ldsm-semantic-septenary-sub-2-neutral-fill-highlighted-color: #8f8f8f;
+	--ldsm-semantic-octonary-alt-neutral-fill: #fff;
+	--ldsm-semantic-octonary-alt-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-octonary-alt-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-octonary-sub-neutral-fill: #b7b7b7;
+	--ldsm-semantic-octonary-sub-neutral-fill-hover-color: #969696;
+	--ldsm-semantic-octonary-sub-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-octonary-sub-2-neutral-fill: #949494;
+	--ldsm-semantic-octonary-sub-2-neutral-fill-hover-color: #737373;
+	--ldsm-semantic-octonary-sub-2-neutral-fill-highlighted-color: #616161;
+	--ldsm-semantic-nonary-neutral-fill: #fff;
+	--ldsm-semantic-nonary-neutral-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-nonary-neutral-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-default-neutral-fill: #1f1f1f;
+	--ldsm-semantic-default-neutral-fill-hover-color: #5e5e5e;
+	--ldsm-semantic-default-neutral-fill-highlighted-color: #919191;
+	--ldsm-semantic-default-alt-neutral-fill: #2a2a2a;
+	--ldsm-semantic-default-alt-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-default-alt-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-default-sub-neutral-fill: #c8c8c8;
+	--ldsm-semantic-default-sub-neutral-fill-hover-color: #a6a6a6;
+	--ldsm-semantic-default-sub-neutral-fill-highlighted-color: #949494;
+	--ldsm-semantic-default-sub-2-neutral-fill: #111;
+	--ldsm-semantic-default-sub-2-neutral-fill-hover-color: #525252;
+	--ldsm-semantic-default-sub-2-neutral-fill-highlighted-color: #858585;
+	--ldsm-semantic-light-neutral-fill: #2a2a2a;
+	--ldsm-semantic-light-neutral-fill-hover-color: #696969;
+	--ldsm-semantic-light-neutral-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-light-alt-neutral-fill: #1f1f1f;
+	--ldsm-semantic-light-alt-neutral-fill-hover-color: #5e5e5e;
+	--ldsm-semantic-light-alt-neutral-fill-highlighted-color: #919191;
+	--ldsm-semantic-light-sub-neutral-fill: #3f3f3f;
+	--ldsm-semantic-light-sub-neutral-fill-hover-color: grey;
+	--ldsm-semantic-light-sub-neutral-fill-highlighted-color: #b3b3b3;
+	--ldsm-semantic-on-light-neutral-fill: #616161;
+	--ldsm-semantic-on-light-neutral-fill-hover-color: #404040;
+	--ldsm-semantic-on-light-neutral-fill-highlighted-color: #2e2e2e;
+	--ldsm-semantic-basic-neutral-fill: #000;
+	--ldsm-semantic-basic-neutral-fill-hover-color: #404040;
+	--ldsm-semantic-basic-neutral-fill-highlighted-color: #737373;
+	--ldsm-semantic-primary-accent-fill: #6388ff;
+	--ldsm-semantic-primary-accent-fill-hover-color: #506dcc;
+	--ldsm-semantic-primary-accent-fill-highlighted-color: #4158a6;
+	--ldsm-semantic-on-primary-accent-fill: #fff;
+	--ldsm-semantic-on-primary-accent-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-primary-accent-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-secondary-accent-fill: #96b1ff;
+	--ldsm-semantic-secondary-accent-fill-hover-color: #788dcc;
+	--ldsm-semantic-secondary-accent-fill-highlighted-color: #6273a6;
+	--ldsm-semantic-on-secondary-accent-fill: #fff;
+	--ldsm-semantic-on-secondary-accent-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-on-secondary-accent-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-tertiary-accent-fill: #4d73ff;
+	--ldsm-semantic-tertiary-accent-fill-hover-color: #3d5ccc;
+	--ldsm-semantic-tertiary-accent-fill-highlighted-color: #324ba6;
+	--ldsm-semantic-primary-inverse-fill: #fff;
+	--ldsm-semantic-primary-inverse-fill-hover-color: #fcfcfc;
+	--ldsm-semantic-primary-inverse-fill-highlighted-color: #f5f5f5;
+	--ldsm-semantic-on-primary-inverse-fill: #000;
+	--ldsm-semantic-on-primary-inverse-fill-hover-color: #404040;
+	--ldsm-semantic-on-primary-inverse-fill-highlighted-color: #737373;
+	--ldsm-semantic-secondary-inverse-fill: #e8e8e8;
+	--ldsm-semantic-secondary-inverse-fill-hover-color: #b5b5b5;
+	--ldsm-semantic-secondary-inverse-fill-highlighted-color: #8f8f8f;
+	--ldsm-semantic-on-secondary-inverse-fill: #1f1f1f;
+	--ldsm-semantic-on-secondary-inverse-fill-hover-color: #5e5e5e;
+	--ldsm-semantic-on-secondary-inverse-fill-highlighted-color: #919191;
+	--ldsm-semantic-tertiary-inverse-fill: #f5f5f5;
+	--ldsm-semantic-tertiary-inverse-fill-hover-color: #c2c2c2;
+	--ldsm-semantic-tertiary-inverse-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-primary-highlighted-fill: #fff200;
+	--ldsm-semantic-primary-highlighted-fill-hover-color: #ccc200;
+	--ldsm-semantic-primary-highlighted-fill-highlighted-color: #a69d00;
+	--ldsm-semantic-secondary-highlighted-fill: #2a2a2a;
+	--ldsm-semantic-secondary-highlighted-fill-hover-color: #696969;
+	--ldsm-semantic-secondary-highlighted-fill-highlighted-color: #9c9c9c;
+	--ldsm-semantic-primary-background: #111;
+	--ldsm-semantic-secondary-background: #1f1f1f;
+	--ldsm-semantic-tertiary-background: #2a2a2a;
+	--ldsm-semantic-tertiary-alt-background: #111;
+	--ldsm-semantic-tertiary-sub-background: #1f1f1f;
+	--ldsm-semantic-secondary-alt-background: #111;
+	--ldsm-semantic-primary-surface: #111;
+	--ldsm-semantic-primary-surface-pressed: #1f1f1f;
+	--ldsm-semantic-primary-surface-alt-pressed: rgba(0,0,0,0.03);
+	--ldsm-semantic-primary-surface-sub-pressed: #383838;
+	--ldsm-semantic-primary-alt-surface: #1f1f1f;
+	--ldsm-semantic-primary-sub-surface: #383838;
+	--ldsm-semantic-popup-surface: #1a1a1a;
+	--ldsm-semantic-popup-alt-surface: #1f1f1f;
+	--ldsm-semantic-context-menu-surface: #3f3f3f;
+	--ldsm-semantic-primary-separator: #1f1f1f;
+	--ldsm-semantic-primary-alt-separator: #383838;
+	--ldsm-semantic-secondary-separator: #2a2a2a;
+	--ldsm-semantic-tertiary-separator: #1f1f1f;
+	--ldsm-semantic-quaternary-separator: #2a2a2a;
+	--ldsm-semantic-light: #fff;
+	--ldsm-semantic-light-pressed: hsla(0,0%,100%,0.45);
+	--ldsm-semantic-secondary-light: #efefef;
+	--ldsm-semantic-tertiary-light: #dfdfdf;
+	--ldsm-semantic-default-dark: #000;
+	--ldsm-semantic-primary-dark: #111;
+	--ldsm-semantic-tertiary-dark: #777;
+	--ldsm-semantic-quaternary-dark: #949494;
+	--ldsm-semantic-quinary-dark: #616161;
+	--ldsm-semantic-senary-dark: #2a2a2a;
+	--ldsm-semantic-primary-disabled: hsla(0,0%,100%,0.4);
+	--ldsm-semantic-primary-alt-disabled: hsla(0,0%,100%,0.1);
+	--ldsm-semantic-primary-sub-disabled: rgba(17,17,17,0.4);
+	--ldsm-semantic-secondary-disabled: rgba(17,17,17,0.4);
+	--ldsm-semantic-secondary-alt-disabled: hsla(0,0%,100%,0.2);
+	--ldsm-semantic-chat-background: #1a1a1a;
+	--ldsm-semantic-chat-bubble-surface: #6de67b;
+	--ldsm-semantic-secondary-on-chat-bubble-surface: #1e6e1e;
+	--ldsm-semantic-tertiary-on-chat-bubble-surface: #3d9e43;
+	--ldsm-semantic-chat-bubble-separator: #58db67;
+	--ldsm-semantic-chat-bubble-content-fill: #5bdd6a;
+	--ldsm-semantic-chat-bubble-content-fill-hover-color: #46ab52;
+	--ldsm-semantic-chat-bubble-content-fill-highlighted-color: #36853f;
+	--ldsm-semantic-primary-legacy-fill: #111;
+	--ldsm-semantic-primary-legacy-fill-hover-color: #525252;
+	--ldsm-semantic-primary-legacy-fill-highlighted-color: #858585;
+	--ldsm-semantic-quinary-legacy-fill: #777;
+	--ldsm-semantic-quinary-legacy-fill-hover-color: #575757;
+	--ldsm-semantic-quinary-legacy-fill-highlighted-color: #454545;
+	--ldsm-semantic-secondary-on-legacy-fill: #555;
+	--ldsm-semantic-secondary-on-legacy-fill-hover-color: #333;
+	--ldsm-semantic-secondary-on-legacy-fill-highlighted-color: #212121;
+	--ldsm-semantic-primary-legacy-text: #c8c8c8;
+	--ldsm-semantic-primary-legacy-text-hover-color: #a6a6a6;
+	--ldsm-semantic-primary-legacy-text-highlighted-color: #949494;
+	--ldsm-semantic-secondary-legacy-text: #949494;
+	--ldsm-semantic-secondary-legacy-text-hover-color: #737373;
+	--ldsm-semantic-secondary-legacy-text-highlighted-color: #616161;
+	--ldsm-semantic-additional-text: #616161;
+	--ldsm-semantic-additional-text-hover-color: #404040;
+	--ldsm-semantic-additional-text-highlighted-color: #2e2e2e;
+	--ldsm-semantic-swipe-fill: #35db80;
+	--ldsm-semantic-swipe-fill-hover-color: #2dba6c;
+	--ldsm-semantic-swipe-fill-highlighted-color: #28a862;
+	--ldsm-semantic-splash-background: #111
+}
+
+.c-badge[data-v-40df02f5]
+{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.c-badge__image[data-v-40df02f5]
+{
+	width: 100%
+}
+
+.link-list.separator li
+{
+	margin: 0!important
+}
+
+.link-list.separator li:before
+{
+	content: "|";
+	color: var(--ldsm-semantic-quinary-alt-fill,#6c7985);
+	padding: 0 9px
+}
+
+.link-list.separator li:first-child:before
+{
+	content: "";
+	padding: 0
+}
+
+@media (max-width:768px)
+{
+	.disable-mobile-padding
+	{
+		padding: 0!important
+	}
+}
+
+.fade-enter-active[data-v-367d78c8],.fade-leave-active[data-v-367d78c8]
+{
+	transition-duration: .2s;
+	transition-property: height,min-height,opacity;
+	transition-timing-function: cubic-bezier(.55,0,.1,1);
+	overflow: hidden
+}
+
+.fade-enter[data-v-367d78c8],.fade-leave-to[data-v-367d78c8]
+{
+	height: 0;
+	min-height: 0;
+	opacity: 0
+}
+
+.l-box[data-v-367d78c8]
+{
+	display: flex;
+	flex: 1 0 auto;
+	box-sizing: border-box
+}
+
+.l-boxinner[data-v-367d78c8]
+{
+	padding-top: 1px;
+	width: 100%
+}
+
+.l-contents[data-v-367d78c8]
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 25px;
+	box-sizing: border-box;
+	max-width: 614px;
+	width: 100%;
+	margin: auto
+}
+
+@media (min-width:768px)
+{
+	.l-contents[data-v-367d78c8]
+	{
+		max-width: none;
+		width: 80%;
+		margin: auto
+	}
+}
+
+.is-noContentPadding[data-v-367d78c8]
+{
+	padding: 0
+}
+
+@media (min-width:768px)
+{
+	.is-noContentPadding[data-v-367d78c8]
+	{
+		width: 100%
+	}
+}
+
+.c-checkbox[data-v-d39cf5f0]
+{
+	display: flex;
+	align-items: center;
+	position: relative
+}
+
+.c-checkbox>label[data-v-d39cf5f0]
+{
+	width: 100%;
+	margin-left: 16px;
+	user-select: none
+}
+
+.c-checkbox>label[data-v-d39cf5f0]:before
+{
+	content: "";
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 22px;
+	width: 22px;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAABKNJREFUWAnVmU1vU0cUhn0NSRREKlVppMibJF6ERX8ArVp2qYREAgiJbNgCO1pYJFK7ibPq14J+7Gi3bIIUhZBISGQHCPgBLGCRj40TKURIBDVKUuw+73TO1dg4DjaOfXOl8Tl35sw5j+eeGc8dR6mPuIrFYrS8vHwyiqIzuMlSMtRluJcscr+KnkeqLFI139/f/4w6tdV1RfX0WllZGSoUChcJfBaI3lp80GeNPrPpdPpOX1/fQi19ZVsT8NLS0hf0+YVySp0rXQC9BUgjmkLXSB+vZOfrHiLHBwYGnlaxKWn6IGBGNEvgXykXwt4AbVG3gJxpa2t73N7enu/p6dkMbdbX17t2dnYyu7u7X2F7HtshZGdoQ900ZYwRXwzrK+n7AuvxE2CK8mng4CV6rqOj424mk/knqN9Xzefzx7a3t8+pP2XQOgD8mjK6X5pUBQb2GqA3KUfkGIfKv0kmzt/o/1qweiR+jjJhL+NnAt3NA/R3lBtA/7mXzz2Bydff6PSddcTRXFdX16Xu7u43VtcIubGx8cnm5uZtoIcDf7+T19eD+1itCKyRZRX4I7ZiojGq3wNdCOoapgKbZrR/xOG4OWUV+bbSSL8H7HP2Pk5cGtDxKh3/MkcHKYl9hYG6pRg+PU6X53Q6BKCDVgNNMAdL28/NghWHj6VlMyUGsYhJ93aVAGOgpcutBspZ0uAHM2yW9Kk3p3hiEVMYO04J/6PwRI3ArjHBTjR6goWBq+l+Ir4A1n5Fv2QSuh+XeISBjL8JhpOtgtUXUWwx2JcK2dwIa6KR7A+8wUsey+cYfdQ6a8HqlQBrnX5Of/fjwuT/RhPQjTCNo4HjXKthxeIZcsalzZb0NLAa5RHdYLSln1vpSbjEIiaxILUzjLRgn0RxyY1cqHVvcJBfTCxiUgwxijUNuTbf7kKfMT0pMmQSq3I4a3DaIpqeFFnGlBVwxuC0nzU9KbKMKaNJ54AZ7rflm+8kQItJbGIRq3LYAXOTuNG1ATM2sWqE636DNYfNkmJVDq8qoI10s4LXEidgW1VKuFQA/rheGGtx1AxbMYlNscSqEY5zV2+3zYCoJUYZkwOOX631Kl6Ls2bYljEtatLNW2D086YnRYZMYo34iNhe5pG95MgWC/VnSdlP6AyDlHgFWydsa2wv3TrMfXFWI6oGf8iRiAEWi5g82yzQbllL6WAuIMxhdDS4b4nqGXIW3Bi1SuhtVVs4HczpGmQbd/l/tXWfnmHQEzz0jCkH7CvjQwyGfkIvgq3CVWwxBPFjthh4gLdSjKZlxOPo9cdHcXvQ+UBVYqd9bDtvmxabBS0BAniM8lqNdBzmsej4qKmXYiq2gopFTCFACTB5sojBKOWdNxpnybsSdjhI3cdyj18MYhFTGLMEWA1KbgxvmJHOujhk+UmPyuoaLeVbMexcTf7FYBMtjBef/ISV0g/VcavB84gOz4F2AH14/jIIoLPk2eH4U8agJXXCyWQQ+NdhfajT/sF/e2H7CF9j4Tob+qqk7znpKhlbHbmtNNF53AjSjkStuaoEcg2De8ipSqtA1c401gVsToHd869b2dCeB0xvNCoN+ev2P9LPua5DQej2AAAAAElFTkSuQmCC);background-size: 22px 22px
+}
+
+.c-checkbox__label[data-v-d39cf5f0]
+{
+	min-width: 0
+}
+
+.c-checkbox>input[type=checkbox][data-v-d39cf5f0]
+{
+	appearance: none;
+	background: none;
+	opacity: .00001;
+	width: 22px;
+	height: 22px
+}
+
+.c-checkbox>input[type=checkbox]:focus~label[data-v-d39cf5f0]:before
+{
+	box-shadow: 0 0 4px 1px #52b14c;
+	border-radius: 50%
+}
+
+.c-checkbox>input[type=checkbox]:checked~label[data-v-d39cf5f0]:before
+{
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAABVVJREFUWAnVmftvFFUUx793t2bLEsPDNuJWa1/WQkRUWgpha4xWhRJqBFuxbRAf8V1BLJSGqjEqMahR1OhP/AM11hTSgqSx4m5bCm1R0cT4A9FfSnnYEiJsF7o7nnO3c7vdbndndqel3mR37ty555zPnLn3zL1nBJIomqYJ5yF3MR3WQSCHVLk0+vERdBFCnBHAAJ0PQMNpIbTWK2u9PYIqiZolfeZL6mF3KYKoIIhyDdoiMxoExCDd3AHY8M3IGm+7GVnuawp4TtvqleS3veSeErOGovUn4x4hsNNX1nks2vVobYaAU9vdOZofHwHahmhKkm8TzcKBHSOl3tPxdMUFlo8/gCZ69AviKUvmOg2VYdhRGW+Y2GIZcbSV1GoBHJ5uWGZgG2yLbcZimtLDjjb3ZzTTt8YSnrZrQuzzl3m3RdMfFVjepRb8PJrAjLUJ2+v+Ms8XkfYmAfOY5UdDD8ke2Xlmz0VA2LEmckxPAOZoAD96Z2LMGrl5OREdKAyPHhMmHYeu2QLLNyQnogyn47enPMwvhaCG7vFLs6dmE1ilv1yUh+nFTy+G2VnC2SSwnGia5p6duDQ0iE2+wAgw5OEgKq8H7PacKrgcacZM82KLgXmJSKN7vTEp63rtKXgF/Duy8ktkpKbHV8wrQ2K1yfWsySVifO2xe7x/50tg73LJm3srtmVvii1AVyliLGJW8jAtvmewvJv/Aupya5TFlsGj2PXHV+o8VoVZbWM7hVj9LLv2Tv7zqM/brPQdPOtB9cm3EaBXq6FCuxqedLylMVTozYPym+831DeyU+Mdz6Ihb4tqbj3rxVP9jRg1ChuSdNnG9mBK0VQVGwWU/csa0bR8D3bnPTNVt6jtDMrAejl0rgubzMPSOIbLsIdfy65AVcaj0uZb+c9hV+7Tuv2Yx/rczeChoJfvz3Xjyf7duKaN6k1mji57StVtDSThiCd18tKfuG9egZzV3PeBtOXwB6+ha/jXKUXrcmrwXsGL6vqR8z2o6G/AVZJLsPjtKTW3byHhm+IpCGhBfDf4IwrnLUbu3AzZ/cG0QvgCfnQPn5okzmHrg4KXVXv7+eN4oi8pWNoyi7/tN1RnbiStWUpzjArP5ubBDqyYvwQ5zhD0Q2lF+HfUh2MXf1OSWymufrj4VXX+w4VebOyrpydyVbUlUqF8xil7SnXmIyS81KgCCX2mA8Xz70K2MxRgStNX4NLoZfRc/B21WZXYu2R8W9ZxoQ8bendiJElY5iPgLhrDmfdS3VSs4lDUTNCrFixFlvMWea8Ppxfj7hvzUJs9viw5+k8/HrcIVgJDtIhk1sFOeypaij5GycJ7JHT4n2foZzx2og5XAiPhzUnVeV0seEExp61kgN/ViWhj6ANFn8C9cJkS7xz6BeUEezngU23JVjjF5SvzuGwyMce5rgQLe5A92TUUCm8cMayGlWjEyKyh9TAl5hLklWLsyfITb+Lrv77F+uPbLfWs4hpjVHu61NbVP1mV5FNGLKoQpGdkXacMDCEPk2LOIlqk33I14WwKOLQrFc2WW0taoWjWd8ysSgHzCac8ZfKCT2ZBYRZmCkeZACwzLJTyJHSDK+pwVVbXiYHTrxE54wnAbFLmsoR4w2rzpvURQ2RejXVMAuZGmTWklCfXr0uR6dbJmUtmUWEtGlgo7ap9OnOZTBoG5NloaVadLyYwd/pffTJgYDmOKOVJD2MaQx7p5rSqgc9gcT3M0HqRn70oaci5Lr0tmSOtDbyUdtoRHmfj6TMFrCuTw4TzcZTiMrvK41UXzZyDNN2bjHhUt6kfEwLWhXlpOuWn21CnATJg6afb/wCcXuX6mgV09gAAAABJRU5ErkJggg==)
+}
+
+.c-checkbox>input[type=checkbox]:disabled~label[data-v-d39cf5f0]:before
+{
+	opacity: .3
+}
+
+.c-avatar[data-v-6289c8d3]
+{
+	position: relative;
+	display: inline-block;
+	width: em(72);
+	height: em(72);
+	border-radius: 2px;
+	vertical-align: top
+}
+
+.c-avatar>.content[data-v-6289c8d3]
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: inherit;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-radius: inherit;
+	list-style: none;
+	overflow: hidden;
+	transition: all .2s
+}
+
+.c-avatar>.content>li[data-v-6289c8d3]
+{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	overflow: hidden;
+	font-size: 2.4em
+}
+
+.c-avatar>.content>li[data-v-6289c8d3]:only-child
+{
+	flex: 1 1 100%
+}
+
+.c-avatar>.content>li:first-child:nth-last-child(2)~li[data-v-6289c8d3],.c-avatar>.content>li[data-v-6289c8d3]:first-child:nth-last-child(2)
+{
+	flex: 1 1 50%;
+	font-size: .9em
+}
+
+.c-avatar>.content>li[data-v-6289c8d3]:first-child:nth-last-child(3)
+{
+	flex: 1 0 100%;
+	font-size: .7em
+}
+
+.c-avatar>.content>li:first-child:nth-last-child(3)+li+li[data-v-6289c8d3],.c-avatar>.content>li:first-child:nth-last-child(3)+li[data-v-6289c8d3]
+{
+	flex: 1 1 50%;
+	font-size: .9em
+}
+
+.c-avatar>.content>li:first-child:nth-last-child(4)~li[data-v-6289c8d3],.c-avatar>.content>li[data-v-6289c8d3]:first-child:nth-last-child(4)
+{
+	flex: 1 1 50%;
+	font-size: .7em
+}
+
+.c-avatar>.content>li [data-v-6289c8d3]
+{
+	position: absolute;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center
+}
+
+.c-avatar>.content>li>.c-avatar[data-v-6289c8d3]
+{
+	font-size: .8em
+}
+
+.c-avatar.circle[data-v-6289c8d3]
+{
+	border-radius: 50%
+}
+
+.c-avatar.sm[data-v-6289c8d3]
+{
+	font-size: .666666666666667em
+}
+
+.c-avatar.rg[data-v-6289c8d3]
+{
+	font-size: 1em
+}
+
+.c-avatar.lg[data-v-6289c8d3]
+{
+	font-size: 1.666666666666667em
+}
+
+.p-userListThumb[data-v-39de627e]
+{
+	width: var(--thumbnailSize);
+	height: var(--thumbnailSize)
+}
+
+.p-userListThumb>img[data-v-39de627e]
+{
+	object-fit: cover;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%
+}
+
+.p-userListThumb-1[data-v-39de627e],.p-userListThumb-2[data-v-39de627e],.p-userListThumb-4[data-v-39de627e]
+{
+	flex-direction: row
+}
+
+.p-userListThumb-3[data-v-39de627e]
+{
+	flex-direction: column
+}
+
+.fade-enter-active[data-v-06f7925c],.fade-leave-active[data-v-06f7925c]
+{
+	transition-duration: .2s;
+	transition-property: height,min-height,opacity;
+	transition-timing-function: cubic-bezier(.55,0,.1,1);
+	overflow: hidden
+}
+
+.fade-enter[data-v-06f7925c],.fade-leave-to[data-v-06f7925c]
+{
+	height: 0;
+	min-height: 0;
+	opacity: 0
+}
+
+.p-users[data-v-06f7925c]
+{
+	width: 100%;
+	height: 108px;
+	max-height: 108px;
+	background-color: #fff
+}
+
+.p-users__list[data-v-06f7925c]
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	overflow-x: auto;
+	overflow-y: hidden;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 7px;
+	padding-left: env(safe-area-inset-left);
+	margin: 0
+}
+
+.p-users__list[data-v-06f7925c]:after
+{
+	content: "";
+	flex: 0 0 calc(env(safe-area-inset-right) + 16px)
+}
+
+.p-users__list__item[data-v-06f7925c]
+{
+	flex: 0 0 55px;
+	margin-right: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	cursor: pointer
+}
+
+.p-users__list__item[data-v-06f7925c]:first-of-type
+{
+	margin-left: 16px
+}
+
+.p-users__list__item[data-v-06f7925c]:last-of-type
+{
+	margin-right: 0
+}
+
+.p-users__list__item__thumb[data-v-06f7925c]:after
+{
+	content: "";
+	position: absolute;
+	top: -2px;
+	right: -2px;
+	width: 20px;
+	height: 20px;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAA05JREFUWAnNmLuO2kAUhs2d7RASEom2gSLvkCpCKYh4hNTZDgoeIXVK6lTJS6AQSFIQGtqgRIImRRoUtCAt4p7/d+ZYZrDBNsuujzQae+ZcPs/VM4YRcomcwReFbQopjsTnmMqRGVukjcrXyBfqGdllhR90hZSp1+vF0Wj0ZjqdfpjP519Wq9XP7XY722w2Mz6zjHXUoS5tlO05jQIXzkKnaaTsYDB4jeAdwKx2HoW6tKEtfShf9wbKrst0u93yYrHoemRyVaMP+qJPJPo+SxL5fD43mUwarhEDVtAnfYMuEZQwVa1WC+iaTwEZTprRN2MAkJPNlyRouFwuf5yMcqYCYyhIzy0ZY9NfsuX0b2Is1d0nxyRnVuYSY06H0t8Zk7GRjs7uNGeYbvxQ72p2czlzFJJn72MpCfpBjE0GJKsVuUWJpLGQvkomk8+l4KFzxiYD4jq2YgaDteP161ut1q7dbp9Upw51vQoZAMixaIrMmij2yyeVSuVdJBKxt6ro7eUIaDANh0MjFosZhUJhr15eOp2O0Ww2DezHBvwaxSK35OMCf9fYw9/3er1baO4EJlWr1V7CCf9MTgqhRAhAEF0ETsqjUQklJc45GciCWnPxFqt4Lpd74WxyWFoqlYxymdvpf9EhdTjq0sarKBazsaTFovF4/NqrA+pJQMJRJNef/cLRXrGYjSfTOYt/uO+oeEYFP6K3lt02CBzt1+v1r0QiwdXkr3RxFOPqqd2512e9u8UuKBztFYvJJoDmKiDOHzsnDBiYzLME8x3+ev/wwa+4dbE+cfz4VSx7gBv0u29AHY7dyiQSFFKx8NBlnsiYbzFJfqfTjjsM6w/ECU5mNpVlVkturztwphWQBUU8GVpdvB6Px980PdfXU3D6xPHbkmD5iuA8rlqAi0aj8Rlj0yx0JVMVOFpaKm6zVYfEuLJsjj2QASxt6PAsvSeh/FmwE17x3Mop/piizs68HDgQ7iqh/mHlunPX7/ffHqA/UIGKfYdw5hroFJatGOpDE6FDfeyUVg31wV0gQ331IZChvjwSSB5AQnv9JpCc3fyTCOUFpkAyJ6j9CvhmNpt9xFnWugLGnmtdAbMOR86bc66AGTCo8G88hRSqS/SgHxPY7h+0wFe6FOxQxAAAAABJRU5ErkJggg==);background-size: contain
+}
+
+.p-users__list__item__name[data-v-06f7925c]
+{
+	font-size: 12px;
+	letter-spacing: -.2px;
+	text-align: center;
+	color: #777;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 54px;
+	margin-top: 7px;
+	display: block
+}
+
+.c-button[data-v-edf67c1c]
+{
+	border-radius: 5px
+}
+
+.c-button[data-v-edf67c1c]:active,.c-button[data-v-edf67c1c]:focus,.c-button[data-v-edf67c1c]:hover,.c-button[data-v-edf67c1c]:link,.c-button[data-v-edf67c1c]:visited
+{
+	text-decoration: none
+}
+
+.c-button--allow[data-v-edf67c1c]
+{
+	color: #fff;
+	background-color: #00b900
+}
+
+.c-button--allow[data-v-edf67c1c]:active:not(:disabled)
+{
+	background-color: #006d00
+}
+
+.c-button--allow[data-v-edf67c1c]:disabled
+{
+	color: hsla(0,0%,100%,.5);
+	cursor: auto
+}
+
+.c-button--deny[data-v-edf67c1c]
+{
+	color: #777;
+	background-color: #efefef
+}
+
+.c-button--deny[data-v-edf67c1c]:active:not(:disabled)
+{
+	background-color: #adbfd0
+}
+
+.c-button--deny[data-v-edf67c1c]:disabled
+{
+	color: hsla(0,0%,100%,.5);
+	cursor: auto
+}
+
+.c-button__text[data-v-edf67c1c]
+{
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	word-break: break-all
+}
+
+.c-button-link[data-v-edf67c1c]
+{
+	flex-direction: column;
+	text-align: center
+}
+
+.c-button-link[data-v-edf67c1c],.l-self[data-v-748b9c30]
+{
+	display: flex;
+	justify-content: center
+}
+
+.l-btn[data-v-748b9c30]
+{
+	flex: 0 1 100%;
+	height: 45px;
+	margin-right: 7.5px
+}
+
+.l-btn[data-v-748b9c30]:last-of-type
+{
+	margin-right: 0
+}
+
+.c-textinput[data-v-6708e530]
+{
+	box-sizing: border-box;
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 38px;
+	border-radius: 5px;
+	background-color: #efefef
+}
+
+.c-textinput__icon[data-v-6708e530]
+{
+	height: 22px;
+	width: 22px;
+	margin-left: 12px;
+	flex: 0 0 auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAqpJREFUSA21Vj2LE1EUdSYK+RA0H426W6RRiCFNwHYTEYRt8kMU7dSfIIKIiJX+Ars0liaW7pIiYW1sgro4TT4aSQiaxHOGuY+b8WVmVmJgeO/ee+45c9+7702ccxG/QqFw03Gc1nq9ruK5QihsD88J7PZkMvkckW4NOTZvqVQ6WK1Wz0B6yxYXH4SPXNd9NBqNPoovbnQ1oNFonM/n86+Wy2U3Tox5xBDLHOZqrm1zUyETBoNBGySHYTAqmcF3Gvj3gclYMO9rtVqr2+3+Dse0bSrs9/svLGIdiN0tl8uXsV83+GB+iT6QdDQRc8mhfba5XyH3jEujAEvszcPxePxa+f6aFovFe9jrlwikJJhKpRpRe+oD0+n0OyRckySIPYgTI3Y+nx/ncrlxaGUq8L8VrvDosPWRcKICnel0elvZsVM0zQeAmgLEkle3HRkXwZYAOcJ+qu0k83BOmFNzuKiuKg4AZ2iKjWaQWNTIHOTOBaM5xScjBf0bJHCc9nq9XxJMOgY53wUf4hS3P5pjseH9jwb30FP8e/V6/YKyE02DnH0BhzjF7Y8UNB2KpcgOh0PTbRvICIM5yDW3j+YMp3EP29oJ+4m2k8zDOWFOzeHyvOCNjpSzyRtE2ZHTAGtWBVyftp1BEvlNw0+MZuV1lURUXW0mHVyPjWGZ+FfbbDb7mslkSojL949LfQjfQTab9SqVyjfP81bMZ4MsFos7uA7fAMOVMJ2O6n7ieQ6+MbG2n395M3CGz9MehLI2Mvog+ANVNnGBf7FhjCCDFA0+Mfdt4G0+VoaXuCjxKNENQUk4618M5HnY9w5ErwrHNlGroCSd5U8UXvJ6EtFIQRFOOiYR3akgXyxO1LR00iricOxOdin30IbdeYUiIpXSjjomgt/JSFE+OyH7V5I/wCdfl0QzUYEAAAAASUVORK5CYII=);background-size: 14px 14px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	opacity: .25
+}
+
+.c-textinput__icon--focus[data-v-6708e530]
+{
+	opacity: 1
+}
+
+.c-textinput__input[data-v-6708e530]
+{
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: .2px;
+	color: #111;
+	flex: 1 1 auto;
+	background: transparent;
+	width: 0;
+	border: none
+}
+
+@supports (-webkit-overflow-scrolling:touch)
+{
+	.c-textinput__input[data-v-6708e530]
+	{
+		line-height: 20px
+	}
+}
+
+.c-textinput__input[data-v-6708e530]::-ms-input-placeholder
+{
+	opacity: .25;
+	color: #111
+}
+
+.c-textinput__input[data-v-6708e530]::placeholder
+{
+	opacity: .25;
+	color: #111
+}
+
+.c-textinput__input[data-v-6708e530]::-ms-clear
+{
+	display: none
+}
+
+@supports (-webkit-overflow-scrolling:touch)
+{
+	.c-textinput__input[data-v-6708e530]
+	{
+		padding: 0
+	}
+}
+
+.c-textinput__reset[data-v-6708e530]
+{
+	height: 22px;
+	width: 22px;
+	margin-right: 8px;
+	flex: 0 0 auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAvpJREFUWAntWD1vE0EQtbEFBRZNhIMiStzEgsaORQktSEip+Re0SCmQaPMvXCPlD9BGxm5ATmPKKGAjN5FTQGPeQzfSeriZ3TM2EOlWWu3XzLx372bv9q5SKUupQKlAqYCnQNVbTFkbj8c3F4vF0+Vy+QL2+9VqdQ/9Pfqif4H+Bbpn6J80Go337Xb7B9fWLWsTHgwG90DmCMAv0d5JIQDSl7Dro33T6/W+pvhom8KEJ5PJrfl8/hqgr0D0tg6YMobvFXyPd3Z23rZare8pPmJTiHCm6juAPZYAf9KC+CnqYRG1b6QCjkajRyD6YVNkictYjDkcDh+m8khSOFOWZO+nBi5iB5XPUQ9SlI4qzJwFUabBVsjywhibGMSKXWiUMDcYgm0kZz0yxCCWZ8M1NyWyVPiMYGs9DWLgeh1pcYX6wEsNV2EQPYqR3d3drTSbTY3925g2tPUKsYjp2ZgKZ2+wbwhgvhRCEtPptDKbzXKxQjva0NYqUPgSb8S71hvRVDh73ZpkNaCldEiWPhBAu66MKRCxVyaDgUkYjjwbuEWrpUlrst5dCIE87HpoqPr7apw7lDSQ/JSWxmE/lWwGYmKbhJFLPHXlktSTHmnaFiTLU96v057G4dhLCdMpL5BOD7EpSpZ+EMrENgkL4D9qzVtrEsZt4cE7uegNJo56I8q81wL7i7VuEsZtSSasyTINWKUUJe1hm5sOYGeoTwTUavPIyiakjzwppA3XrJiYJ3ZuMRXGbTnJ9QgmY2T1RkxV2sM2CfODEY78Bksq1tNAk0ZMNx4xiW0ZmYSzd3nfcuQ8yQghtlYJbcLcNuz71jmC9u7lXrvjJc+l2LHHhhIbnyaWdxYmoJkSwoaf4sirUxlvqyUGsWLxo4T53wDBDlHPY8HWXWdsYqT8o4gSJgnepnq9/nwbpBmzVqs9i6WCiJFEmMadTucjgh+gbiw9GIsxu93uJyEUa92nRJ7ztfpVFV5A9sj7/38GhqTZ/9u/WzV+OS4VKBUoFVhV4Cd0WKcMz/ngqQAAAABJRU5ErkJggg==);background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	cursor: pointer
+}
+
+.p-usersearchBox[data-v-710ea5e0]
+{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box
+}
+
+.p-usersearchBox__cancel[data-v-710ea5e0]
+{
+	background: #fff;
+	color: #949494;
+	flex: 0 0 auto;
+	margin-left: 13px;
+	height: 38px;
+	font-size: 16px;
+	letter-spacing: -.3px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0
+}
+
+.c-loader[data-v-4fa3a2e5]
+{
+	width: 30px;
+	height: 30px
+}
+
+.c-button[data-v-07c75002]
+{
+	border-radius: 5px
+}
+
+.c-button[data-v-07c75002]:active,.c-button[data-v-07c75002]:focus,.c-button[data-v-07c75002]:hover,.c-button[data-v-07c75002]:link,.c-button[data-v-07c75002]:visited
+{
+	text-decoration: none
+}
+
+.c-button--allow[data-v-07c75002]
+{
+	color: #fff;
+	background-color: #00b900
+}
+
+.c-button--allow[data-v-07c75002]:active:not(:disabled)
+{
+	background-color: #006d00
+}
+
+.c-button--allow[data-v-07c75002]:disabled
+{
+	color: hsla(0,0%,100%,.5);
+	cursor: auto
+}
+
+.c-button--deny[data-v-07c75002]
+{
+	color: #777;
+	background-color: #efefef
+}
+
+.c-button--deny[data-v-07c75002]:active:not(:disabled)
+{
+	background-color: #adbfd0
+}
+
+.c-button--deny[data-v-07c75002]:disabled
+{
+	color: hsla(0,0%,100%,.5);
+	cursor: auto
+}
+
+.c-button__text[data-v-07c75002]
+{
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	word-break: break-all
+}
+
+.c-button-link[data-v-07c75002]
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center
+}
+
+.fade-enter-active[data-v-2d21851d],.fade-leave-active[data-v-2d21851d]
+{
+	transition-duration: .2s;
+	transition-property: height,min-height,opacity;
+	transition-timing-function: cubic-bezier(.55,0,.1,1);
+	overflow: hidden
+}
+
+.fade-enter[data-v-2d21851d],.fade-leave-to[data-v-2d21851d]
+{
+	height: 0;
+	min-height: 0;
+	opacity: 0
+}
+
+.LyContents01[data-v-2d21851d]
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 25px
+}
+
+@media (min-width:768px)
+{
+	.LyContents01[data-v-2d21851d]
+	{
+		padding: 0 48px
+	}
+}
+
+.expand[data-v-2d21851d]
+{
+	padding-bottom: 120px
+}
+
+@media (min-width:768px)
+{
+	.expand[data-v-2d21851d]
+	{
+		padding-bottom: 0
+	}
+}
+
+.l-self[data-v-d01bd61c]
+{
+	display: flex;
+	justify-content: center
+}
+
+.l-btn[data-v-d01bd61c]
+{
+	flex: 0 1 100%;
+	height: 60px;
+	margin-right: 24px
+}
+
+.l-btn[data-v-d01bd61c]:last-of-type
+{
+	margin-right: 0
+}
+
+.l-self[data-v-ef547e3c]
+{
+	display: flex;
+	justify-content: center
+}
+
+.l-btn[data-v-ef547e3c]
+{
+	flex: 0 1 100%;
+	height: 60px;
+	margin-right: 24px
+}
+
+.l-btn[data-v-ef547e3c]:last-child
+{
+	margin-right: 0
+}
+
+.l-content[data-v-ef547e3c]
+{
+	padding: 50px 56px
+}
+
+.l-alertTitle[data-v-ef547e3c]
+{
+	font-weight: 700
+}
+
+.l-externalUrl[data-v-ef547e3c]
+{
+	margin: 20px 0
+}
+
+.l-copyButton[data-v-ef547e3c]
+{
+	width: 100%;
+	padding: 10px 0;
+	color: #00b900;
+	font-size: 120%;
+	background-color: #efefef
+}
+
+.l-copyHint[data-v-ef547e3c]
+{
+	text-align: center
+}
+
+.fade-enter-active[data-v-ef547e3c],.fade-leave-active[data-v-ef547e3c]
+{
+	transition: opacity .2s
+}
+
+.fade-enter[data-v-ef547e3c],.fade-leave-active[data-v-ef547e3c]
+{
+	opacity: 0
+}
+
+.ldsm-box-button[data-v-708b4740]
+{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px
+}
+
+.ldsm-box-button[data-v-708b4740]:disabled
+{
+	cursor: default
+}
+
+.ldsm-box-button--solid.ldsm-box-button--green[data-v-708b4740]
+{
+	color: var(--ldsm-semantic-on-primary-fill);
+	background-color: var(--ldsm-semantic-primary-fill)
+}
+
+.ldsm-box-button--solid.ldsm-box-button--green[data-v-708b4740]:hover:not(:disabled)
+{
+	color: var(--ldsm-semantic-on-primary-fill-hover-color);
+	background-color: var(--ldsm-semantic-primary-fill-hover-color)
+}
+
+.ldsm-box-button--solid.ldsm-box-button--green[data-v-708b4740]:active:not(:disabled)
+{
+	color: var(--ldsm-semantic-on-primary-fill-highlighted-color);
+	background-color: var(--ldsm-semantic-primary-fill-highlighted-color)
+}
+
+.ldsm-box-button--solid.ldsm-box-button--red[data-v-708b4740]
+{
+	color: var(--ldsm-semantic-on-prominent-fill);
+	background-color: var(--ldsm-semantic-prominent-fill)
+}
+
+.ldsm-box-button--solid.ldsm-box-button--red[data-v-708b4740]:hover:not(:disabled)
+{
+	color: var(--ldsm-semantic-on-prominent-fill-hover-color);
+	background-color: var(--ldsm-semantic-prominent-fill-hover-color)
+}
+
+.ldsm-box-button--solid.ldsm-box-button--red[data-v-708b4740]:active:not(:disabled)
+{
+	color: var(--ldsm-semantic-on-prominent-fill-highlighted-color);
+	background-color: var(--ldsm-semantic-prominent-fill-highlighted-color)
+}
+
+.ldsm-box-button--solid[data-v-708b4740]:disabled
+{
+	color: var(--ldsm-semantic-primary-alt-disabled);
+	background-color: var(--ldsm-semantic-tertiary-sub-background)
+}
+
+.ldsm-box-button--outline[data-v-708b4740]
+{
+	background-color: var(--ldsm-semantic-default-sub-2-neutral-fill)
+}
+
+.ldsm-box-button--outline[data-v-708b4740]:hover:not(:disabled)
+{
+	background-color: var(--ldsm-semantic-default-sub-2-neutral-fill-hover-color)
+}
+
+.ldsm-box-button--outline[data-v-708b4740]:active:not(:disabled)
+{
+	background-color: var(--ldsm-semantic-default-sub-2-neutral-fill-highlighted-color)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--green[data-v-708b4740]
+{
+	color: var(--ldsm-semantic-primary-fill);
+	border: 1px solid var(--ldsm-semantic-primary-fill)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--green[data-v-708b4740]:hover:not(:disabled)
+{
+	color: var(--ldsm-semantic-primary-fill-hover-color);
+	border: 1px solid var(--ldsm-semantic-primary-fill-hover-color)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--green[data-v-708b4740]:active:not(:disabled)
+{
+	color: var(--ldsm-semantic-primary-fill-highlighted-color);
+	border: 1px solid var(--ldsm-semantic-primary-fill-highlighted-color)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--red[data-v-708b4740]
+{
+	color: var(--ldsm-semantic-prominent-fill);
+	border: 1px solid var(--ldsm-semantic-prominent-fill)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--red[data-v-708b4740]:hover:not(:disabled)
+{
+	color: var(--ldsm-semantic-prominent-fill-hover-color);
+	border: 1px solid var(--ldsm-semantic-prominent-fill-hover-color)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--red[data-v-708b4740]:active:not(:disabled)
+{
+	color: var(--ldsm-semantic-prominent-fill-highlighted-color);
+	border: 1px solid var(--ldsm-semantic-prominent-fill-highlighted-color)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--gray[data-v-708b4740]
+{
+	color: var(--ldsm-semantic-primary-sub-3-text);
+	border: 1px solid var(--ldsm-semantic-primary-neutral-fill)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--gray[data-v-708b4740]:hover:not(:disabled)
+{
+	color: var(--ldsm-semantic-primary-sub-3-text-hover-color);
+	border: 1px solid var(--ldsm-semantic-primary-neutral-fill-hover-color)
+}
+
+.ldsm-box-button--outline.ldsm-box-button--gray[data-v-708b4740]:active:not(:disabled)
+{
+	color: var(--ldsm-semantic-primary-sub-3-text-highlighted-color);
+	border: 1px solid var(--ldsm-semantic-primary-neutral-fill-highlighted-color)
+}
+
+.ldsm-box-button--outline[data-v-708b4740]:disabled
+{
+	color: var(--ldsm-semantic-secondary-alt-disabled);
+	border: 1px solid var(--ldsm-semantic-primary-neutral-fill)
+}
+
+.ldsm-box-button--xs[data-v-708b4740]
+{
+	height: 29px;
+	min-width: 29px;
+	padding: 8px 12px
+}
+
+.ldsm-box-button--xs>.ldsm-box-button__text[data-v-708b4740]
+{
+	font-size: 11px;
+	line-height: 13px
+}
+
+.ldsm-box-button--sm[data-v-708b4740]
+{
+	height: 30px;
+	min-width: 30px;
+	padding: 8px 12px
+}
+
+.ldsm-box-button--sm>.ldsm-box-button__text[data-v-708b4740]
+{
+	font-size: 12px;
+	line-height: 14px
+}
+
+.ldsm-box-button--md[data-v-708b4740]
+{
+	height: 37px;
+	min-width: 37px;
+	padding: 12px 24px
+}
+
+.ldsm-box-button--md>.ldsm-box-button__text[data-v-708b4740]
+{
+	font-size: 13px;
+	line-height: 16px
+}
+
+.ldsm-box-button--lg[data-v-708b4740]
+{
+	height: 44px;
+	min-width: 44px;
+	padding: 14px 24px
+}
+
+.ldsm-box-button--lg>.ldsm-box-button__text[data-v-708b4740]
+{
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px
+}
+
+.ldsm-box-button--xl[data-v-708b4740]
+{
+	height: 48px;
+	min-height: 48px;
+	padding: 16px 24px
+}
+
+.ldsm-box-button--xl>.ldsm-box-button__text[data-v-708b4740]
+{
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px
+}
+
+.ldsm-box-button__text[data-v-708b4740]
+{
+	font-weight: 600
+}
+
+.ldsm-text-button[data-v-355b7083]
+{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	appearance: none
+}
+
+.ldsm-text-button[data-v-355b7083]:disabled
+{
+	cursor: default
+}
+
+.ldsm-text-button--green[data-v-355b7083]
+{
+	color: var(--ldsm-semantic-branding-text)
+}
+
+.ldsm-text-button--green[data-v-355b7083]:hover:not(:disabled)
+{
+	color: var(--ldsm-semantic-branding-text-hover-color)
+}
+
+.ldsm-text-button--green[data-v-355b7083]:active:not(:disabled)
+{
+	color: var(--ldsm-semantic-branding-text-highlighted-color)
+}
+
+.ldsm-text-button--red[data-v-355b7083]
+{
+	color: var(--ldsm-semantic-prominent-text)
+}
+
+.ldsm-text-button--gray[data-v-355b7083]
+{
+	color: var(--ldsm-semantic-quaternary-alt-text)
+}
+
+.ldsm-text-button--black[data-v-355b7083]
+{
+	color: var(--ldsm-semantic-primary-text)
+}
+
+.ldsm-text-button[data-v-355b7083]:disabled
+{
+	color: var(--ldsm-semantic-denary-text)
+}
+
+.ldsm-text-button_text[data-v-355b7083]
+{
+	font-weight: 700
+}
+
+.ldsm-text-button--md[data-v-355b7083]
+{
+	font-size: 15px
+}
+
+.ldsm-text-button--lg[data-v-355b7083]
+{
+	font-size: 17px
+}
+
+body.no-scroll
+{
+	overflow: hidden
+}
+
+button,input,select,textarea
+{
+	font-family: inherit
+}
+
+.MdMN09FallBack
+{
+	font-family: font-face-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Helvetica Neue,Helvetica,sans-serif
+}
+
+.mdMN09Thumb
+{
+	width: 100px;
+	height: 100px
+}
+
+.mdMN09Thumb_image
+{
+	border-radius: 22px;
+	width: 100%
+}
+
+.mdMN09AppName
+{
+	font-weight: 600;
+	font-size: 14px;
+	color: #444;
+	letter-spacing: 0;
+	line-height: 20px
+}
+
+.mdMN09AppDeveloper
+{
+	line-height: 15px
+}
+
+.mdMN09AppDesc,.mdMN09AppDeveloper
+{
+	font-size: 12px;
+	color: #444;
+	letter-spacing: 0
+}
+
+.mdMN09AppDesc
+{
+	line-height: 18px
+}
+
+.mdMN09Ask
+{
+	font-size: 14px;
+	font-weight: 600;
+	color: #444;
+	letter-spacing: 0;
+	line-height: 20px
+}
+
+.mdMN09Btn
+{
+	width: 156px;
+	height: 60px;
+	border-radius: 5px
+}
+
+.mdMN09Btn:active,.mdMN09Btn:focus,.mdMN09Btn:hover,.mdMN09Btn:link,.mdMN09Btn:visited
+{
+	text-decoration: none
+}
+
+.mdMN09Btn-cancel
+{
+	background-color: #dee5ec
+}
+
+.mdMN09Btn-cancel:active
+{
+	background-color: #adbfd0
+}
+
+.mdMN09Btn-cancel_text
+{
+	color: #6c7985
+}
+
+.mdMN09Btn-accept
+{
+	background-color: #00b900
+}
+
+.mdMN09Btn-accept:active
+{
+	background-color: #006d00
+}
+
+.mdMN09Btn-accept_text
+{
+	color: #fff
+}
+
+.mdMN09Btn_text
+{
+	line-height: 20px;
+	font-size: 16px;
+	text-decoration: none
+}
+
+.MdLYR03Error
+{
+	box-sizing: border-box
+}
+
+.mdLYR03Title
+{
+	display: flex;
+	margin-bottom: 35px;
+	text-align: center;
+	justify-content: center;
+	flex-direction: row;
+	padding: 0 25px
+}
+
+@media (min-width:768px)
+{
+	.mdLYR03Title
+	{
+		padding: 0 62px
+	}
+}
+
+.mdLYR03Icon
+{
+	box-sizing: content-box;
+	margin-right: 9px;
+	flex: 0 0 auto
+}
+
+.mdLYR03Desc
+{
+	text-align: center;
+	padding: 0 25px
+}
+
+@media (min-width:768px)
+{
+	.mdLYR03Desc
+	{
+		padding: 0 62px 50px
+	}
+}
+
+.MdIco01Alert
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 25px;
+	height: 25px;
+	background-size: 25px auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAADYUExURUdwTN/m7N/v79rh6N///9/l7Nvl6ePs7N7m7d7l6d7m7N7o7trl7N3l6t7l7drh6N/l7d7l6O7u7t3k7N/m7t7m7d7l69/m7d/m7eDn7t7l7N7l7P////X3+evv8/b4+vH09/P1+PL09/7+/uru8+fs8e/y9ubr8PT3+eTq79/m7Pj6+/r7/OXr8OXq8PL19+jt8eHn7t/m7e3x9O/y9ePp7+3x9enu8uru8u7x9ezw9Ojt8uLo7uHn7eDn7fz8/d/l7Pb4+fz9/fj5++/z9vT2+Pf4+u7y9edE5MoAAAAbdFJOUwCIEP4Iee0cuvmlTvbsnv1Z+g/dapPFuZJr3N0uuRgAAAG6SURBVEjHnZbnksIwDIRDDyUhCQnlZHo/4Hrv/d7/jS4CjgG8CjPRT+18Y8teyzIMLTynXqtY+bxVqdUdzzgYOd90aStc089FA3aZtCjbMpRMlAhGKZHERDFLYmSLiMikKCJSGQ1IF+hAFNJ7RJUORnWX0dYYnF5NtXV26thXH5RS/fF+dqueolZ5M0TURDuDzbkl9dNtM9LWz/r/fhJ6qRNGmno+sXYJuPMuI13gg5V3bHCgHUY6QLCXiwAn0oiRERDKvEwDXdsNI5dI8UPEREKLkRZSzPANuki4Y+QWKa5nONBPZ4wMoeQYAcyPGTmBUoBLoSkj14SLqcD8EyPPUKoYFsy/MHIMJcvIw/wbmx+/tLyAUF+pVwnBG6MPpeYkbAyXT3OlPrFyJBwyzZR6x0pNuEr6UeobK3XBMPz4eyQYBtuSn+UXCbYUivkVvM/mN3y8/mKB8770kMVYPmTYLsSwxaYUBjTluimh1kcXbTU7F1sfarB0D/vYpsGCNk491GBTxYjPgoaoKWUivyR67A0iv6Q4H1+M7zXOJx5rVIgzkMQZe5ZQY3+4auQOj2SeE5irEc4M0Aj3ByBbz9hlKGR7AAAAAElFTkSuQmCC)
+}
+
+.mdMN10Title
+{
+	font-size: 20px;
+	color: #8a929f;
+	line-height: 25px
+}
+
+.mdMN10Desc
+{
+	font-size: 14px;
+	color: #8a929f;
+	text-align: center;
+	line-height: 24px
+}
+
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,ul,var,video
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100%
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section
+{
+	display: block
+}
+
+b,strong
+{
+	font-weight: 700
+}
+
+img
+{
+	border: 0;
+	vertical-align: top
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+button,input,select
+{
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline
+}
+
+button,input
+{
+	line-height: normal
+}
+
+input[type=checkbox],input[type=radio]
+{
+	box-sizing: border-box;
+	padding: 0
+}
+
+textarea
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	vertical-align: top
+}
+
+html
+{
+	overflow-y: scroll
+}
+
+:focus
+{
+	outline: 0
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: 400
+}
+
+cite,em
+{
+	font-style: normal
+}
+
+nav,ol,ul
+{
+	list-style: none
+}
+
+fieldset,table,td,th
+{
+	border: none
+}
+
+fieldset legend
+{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	margin: -1px;
+	padding: 0;
+	border: 0
+}
+
+hr
+{
+	display: none
+}
+
+html
+{
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+button,html input[type=button],input[type=reset],input[type=submit]
+{
+	-webkit-appearance: button;
+	cursor: pointer
+}
+
+button,input,textarea
+{
+	border: 0
+}
+
+:root
+{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	box-sizing: border-box;
+	color-scheme: light dark
+}
+
+:root:not(input):not(textarea)
+{
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent
+}
+
+:after,:before
+{
+	box-sizing: inherit;
+	text-decoration: inherit;
+	vertical-align: inherit
+}
+
+body
+{
+	background-color: var(--ldsm-semantic-primary-background,#fff);
+	line-height: 1.231;
+	color: #444;
+	font-family: font-face-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 13px
+}
+
+a:link,a:visited
+{
+	color: #469fd6;
+	text-decoration: none
+}
+
+a:active,a:focus,a:hover
+{
+	color: #469fd6;
+	text-decoration: underline
+}
+
+#IrNneWNG,body,html
+{
+	min-height: 100%;
+	height: 100%
+}
+
+@media (orientation:landscape)
+{
+	#IrNneWNG
+	{
+		padding-right: constant(safe-area-inset-right);
+		padding-right: env(safe-area-inset-right);
+		padding-left: constant(safe-area-inset-left);
+		padding-left: env(safe-area-inset-left)
+	}
+}
+
+.xDSyNzXuv
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	height: 100%;
+	box-sizing: content-box;
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom)
+}
+
+@media (min-width:768px)
+{
+	.xDSyNzXuv
+	{
+		margin: 0 auto
+	}
+}
+
+.RtNIuZWO
+{
+	-webkit-box-flex: 1;
+	flex: 1 1 auto;
+	flex-direction: column;
+	width: 100%;
+	min-width: 0;
+	min-height: 100%
+}
+
+.rwVxvzImwo .gpqUIECeoc,.RtNIuZWO
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal
+}
+
+.rwVxvzImwo .gpqUIECeoc
+{
+	-webkit-box-align: center;
+	flex-align: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 10px;
+	padding-top: 40px
+}
+
+@media (min-width:768px)
+{
+	.rwVxvzImwo .gpqUIECeoc
+	{
+		display: -webkit-box;
+		display: flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		flex-direction: row;
+		padding: 50px 30px 28px 30px;
+		font-size: 12px
+	}
+}
+
+@media (max-width:320px)
+{
+	.rwVxvzImwo .gpqUIECeoc
+	{
+		padding-top: 0
+	}
+}
+
+.NYSpWDOQKl
+{
+	width: 100%
+}
+
+.NYSpWDOQKl,.NYSpWDOQKl .IEYVZhmzZTb
+{
+	-webkit-box-flex: 1;
+	flex: 1 0 auto;
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column
+}
+
+.NYSpWDOQKl .IEYVZhmzZTb
+{
+	min-height: 100%;
+	box-sizing: border-box
+}
+
+.ZpplZrntTh
+{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	margin: -1px;
+	padding: 0;
+	border: 0
+}
+
+.MdNonDisp
+{
+	display: none!important
+}
+
+.MdBtn01
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+	text-decoration: none!important;
+	font-weight: 700;
+	height: 60px;
+	font-size: 16px;
+	background-color: #00b900;
+	color: #fff!important
+}
+
+.MdBtn01.ExDisabled
+{
+	cursor: not-allowed;
+	background-color: #dee5ec
+}
+
+.wVsJjDBOTjl
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+	text-decoration: none!important;
+	font-weight: 700;
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	flex-pack: center;
+	justify-content: center;
+	height: 50px;
+	font-size: 14px;
+	border: 1px solid #dee5ec;
+	background-color: #fff;
+	color: #4a4a4a!important
+}
+
+.wVsJjDBOTjl.ExDisabled
+{
+	cursor: not-allowed;
+	background-color: #dee5ec
+}
+
+@media (min-width:768px)
+{
+	.wVsJjDBOTjl
+	{
+		font-size: 14px
+	}
+}
+
+.CynXVPwwGVh
+{
+	height: 32px;
+	margin: 49px 0 35px 0;
+	text-align: center
+}
+
+.CynXVPwwGVh .YzXWJNutHot
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 89px;
+	height: 32px;
+	background-size: 89px auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAALIAAABACAMAAACJDt1IAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAHvUExURUdwTADCAAC/AAC+AAC9AAC/AADAAAD/AADEAAC+AAC/AAC/AAD/AAC/AADBAAC+AAC+AAC9AAC/AAC+AAC4AAC4AAC+AADAAAD/AADCAADMAADaAAC5AAC+AADEAAC4AAC/AADMAAC/AAC/AADAAAC+AAC8AAC/AAC4AAC+AAC+AAC+AAC6AADAAAC+AAC/AAC/AADGAAC+AAC+AADQAAC+AAC4AAC+AAC+AAC+AAC+AAC/AADEAADBAAC+AAC+AAC4AADFAAC/AADFAADMAAC/AAC/AAC+AAC+AAC/AAC/AAC9AAC/AAC/AAC+AAC+AAC+AAC/AAC+AAC7AAC/AAC9AAC+AAC+AADAAADGAADIAAC6AADJAAC+AAC/AAC7AAC+AADDAAC9AAC8AADEAAC/AAC9AADAAAC+AAC+AAC4AAC/AAC+AAC8AAC+AAC+AADBAAC/AADGAADBAAC9AAC+AAC+AAC/AAC+AADAAAC/AADAAAC+AAC+AAC+AAC+AADUAAC/AAC9AADDAAC8AAC/AAC/AAC/AAC+AADCAAC8AAC+AAC+AAC/AAC/AAC/AAC+AAC+AAC+AAC9AADBAAC+AAC/AAC5AADBAAC9AAC/AAC8AAC+AAC+AAC+AADCAAC+AAC/AAC+AAC/AAC+AFpxpLIAAACkdFJOUwAqEG7DvCkBGmdlRAKJRovknyAz+/79JQMmCgfn/CPrWQUMFEG96mD2xoq28lLCwHQJ4PEL9fOd5eGZSA1Cufj6FigfD304mp5kaZsEsNxrW5T57oinwdlaGw7jE9Wk30srv9cnLNZerZLvyG/Pfj8ZMBI6zmZqnIJReUnNytR3BpjiEea4gcSHFdNXzHwIqK7d0d4hjoULHbsYUGM3fzs7YY+Q97Mk9gAAAsBJREFUaN7V2vVTG1EQB/CFtjkKqYR4QhJIUrxIkQLFXeru7u7u7u4u+4eWobkj73EvueTu6O33x51d9pMbBpbhAACkREBr7IlI6mV76mlJMC6lz7/Gj5+6MRHPVacGb3CsWh7ARcVK+eatBqVcek487q1xyW2hihylHK5VyqkysbAzuXLbnp48kDzg8svlG8ll907h+LXkvutK+QFqi6sfoIuphNOTZzEDZXK5iilHNgmmA6xgq/xN4dFIxvFnxBZy0pNnMgOz1T8JrvepT+eybXkyWasYbaaR8SI9sqeDHBmLesiRsVMiR8bL9MiuM+TI2HqaHBmXGU/uNZmMRw0nx8wmr3YaSw49A7PJuHxzNuQCm3p6G8F8Mq7LhlyYUmA2GfPpkcv3kSPj/gA5Mg7TI+NKeuRmPzkyHguSI+OqzMgH5grinT4yLjToxmgzkLyA/SuKX3W40KCz6LNZT7nuKb/qSInF7+UZ4QZ+V6XVyfCE3+W+YnUytPHLInlWJ9c/5rfV+ixOBlsTv+6+1clQxq/zxK1Ohu38vruPrE6ObuAX3rtjcTKc6uI3PtRL9pr1CztBhhVTfjrrJDdFTX7KAAdTCwTkovnq2VITB9PJuTuyIf+Pe1khw2A3OTLU0SNLVeTIEGshR4YTIXJkOE6PbN9NjgwnS80jL54jyPl2PWRY4s6IPDRPPZWjjVPI4uwp0UOGtRmRxXnt007GvbrISyuMIWNfBmSnLjL0rTGGbJs+MlyiR4ZD9MjBs+TI4K0mR4aN9MhwgR45sI0cGXaVG0COZNA7kZeq/1CAF0y5WHTSjDBtrnqZ3KyV8RbgvcbWludqF86bqGzpSH6fsLVfeIY5mCtMKb/TyHg1fupI/niBhnz7oHz1n38ciQwPxCYtg7/lsuN7T4q3ckfH5Lahr5OvLEo/fuWnz8iXdqCYvwiylalbDor5AAAAAElFTkSuQmCC)
+}
+
+.CynXVPwwGVh.mdLogo01P01
+{
+	height: 22px;
+	margin: 50px 0 30px 0
+}
+
+.CynXVPwwGVh.mdLogo01P01 .YzXWJNutHot
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 60px;
+	height: 22px;
+	background-size: 60px auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAsCAMAAACZpYwBAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAGDUExURUdwTADFAAC8AAD/AAC+AAC/AAC/AAC8AAC+AAC+AAC+AAC+AADMAADEAAC9AADAAAC+AAC/AAC/AAC/AAC/AAC7AADAAAC+AADBAADBAAD/AAC/AAC7AAC/AAC+AAC+AAC/AAC/AAD/AADGAAC+AADMAAC+AAC+AAC+AADaAAC4AAC+AAC/AAC+AAC4AAC+AAC/AAC9AAC+AAC+AAC+AADAAAC+AAC9AAC9AAC+AAC/AAC+AAC/AADBAAC8AAC8AADAAADAAAC/AAC/AAC+AAC+AAC+AADAAAC/AAC4AADMAAC2AAC+AADAAAC+AAC+AAC8AAC4AAC/AAC9AAC+AAC+AAC4AAC+AAC4AAC/AADUAAC/AADBAAC+AADQAAC+AAC/AAC+AAC/AAC+AAC+AAC4AAC/AAC/AAC+AADBAAC/AAC+AAC+AAC/AAC8AADJAAC8AADFAAC+AAC+AAC/AADGAADGAAC+AAC+AADFAAC/AAC9AADBAAC9AAC+AAC9AAC+AAB5sa8AAACAdFJOUwAWxwGafUzXe2b06QoNr1GubLzgwO4p+SFGA6Dbee25PBgCG/0Fh2t+B/NyVMr3/Azi8aKTJd1i0r4owgQyy+pKYoGF4eiZWgj+Dw7MNZbG0+sQeeyp+jf7MAZgHU8LWyxDUMFL73R1jkLE8PVYzxPmH3/kXBIJreUs1NZXw0dKExgJ/AAAAfFJREFUWMPF1mVzwkAQBuClVGmhjtbd3d3d3d3dXe6nl9leEggcBK7N7bd3drMPgckFADAbsMaAVTmJWFYa7XsYHR0+g2sO7Gzm0zxuYNSj0d1tI7SOGW4/7Rf0YOy00WzxmcymnTI7xl3CrAZ3+1sK7Qx4RhqYwpgpX12sGiyVO72Y59lwhrsdLYUIBhwjDURijJKvrtrxHkyQO3GYY9lwKhdMWkYEwfhTCYHJgSi4O1cQTLKNYcFN3DApDwuu54dtq8HhjGRVPTzxwyQmISic5ncvL0yGRMEkURSclS8IJq15gmCSKQpemgztOa77CAMukd+KVx7v15rQDpAWnjs2WS+UTS4dz2oTxHmsutQTBouy6vxWT/j6Xtl15tQRhtMCZdmdnjAUKcuqHf8Ll3jBhV3Kthvt8Cf3HUNjmZ+9KvgwRVXPr/wwrAeH//jIpDAsioLnBgTBkFMtCIY+UbBzmgvOSlKVy6oRBntdQHjBoipXoyfsW5VaYRgOCPv5sxQYTtcMQ31ocOqfweYmQTAsrwiCvRhd4bx9QTBspIcGf7HbtXj9hBRPMJZLcVB9IlTIF25jPmJvfnO3De/xjHpp/t1noh/j9zzJpd+ArdjnLCoapc+/GWPbLMu1NYOWcpqx5FyDsdDPZCl2tqRoZBbAD1dHRbX83UjLAAAAAElFTkSuQmCC)
+}
+
+.CynXVPwwGVh.mdLogo01P02
+{
+	height: 26px;
+	margin: 30px 0 46px 0
+}
+
+.CynXVPwwGVh.mdLogo01P02 .YzXWJNutHot
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 73px;
+	height: 26px;
+	background-size: 73px auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAAA0CAMAAABW4JFPAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAGnUExURUdwTAbIVQbHVQbHVQjJVgbKVgrKWH//fwjIVgjKVQfHVQbIVQfIVQbJVwbHVQbHVQbHVQbHVf///wvMVQbHVQzMWQnPVT//fwbHVR/fXwbHVQbIVQjJVgbHVQfHVgfIVQfHVQfIVQfIVQfHVQbHVgbHVQjKVwbHVQbHVQfHVQbIVQfIVwbHVRLIWwbHVQbIVQbHVQbIVgbIVRfQXArJVQbHVTPMZgbHVQbIVgbHVQbHVQvQXAfIVQfIVgbHVQbHVVX/VQjKVwjIVQbHVQfHVwjIVwfIVQbHVQjHVgbHVgfHVQvHWAbKVQbHVQfIVQnLVQbIVQnJWAbHVQfHVgfHVQfHVhziVQbIVgjLVgbHVQfHVQbHVQbIVQbHVQrMWwbIVQfIVQbHVQfJVQbIVRHMVQbHVSrUVQbHVwfIVgbIVQbHVQbHVQrIVgfMVwbHVQbHVQbIVQbIVQbHVQfIVgjJVQbHVQnNWAfHVQfHVQbHVQbHVQbHVQbHVQbHVQ7UVQfJVgfHVQfIVQbHVQbHVRXUVQbMWQbHVQfHVQfKVgfJVwbHVQfHVQbHVTCTGbIAAACMdFJOUwB6t7lbTTECXj+JumxM8/z+9wEt8RQbBKII3t8+7IuNgSGQ13P9Ovr5aZlG4g7yce12nwsY9gXdmn3JFkKC7ucDHV3pID2HoViptC4nxdY2SzTvjqtqCX87wYrkzPUZqK3raJUP8AZJZ1S90C8jTsLDlsSIWncasK67+OGl+xJt2LHS9AwomGBEQ+BFyR/NywAAAjNJREFUWMPN2edXE0EQAPDBBAkod2mEFEokEJOACCgWFAsoCBYQLDRBUVCQYgMLICCooPNHy3t3Z25flmtsXma+3dzczO9LdvdlYS+GSjR8CIFR1A+phb5wpZqarlZT8vMn3G9qJLVAGtZST4NoGNF9iGWfMkaiW95s4SclVSFnU5d434zoRlUpqQCaRRR0Dy4jUqmusEhJHdd3usP5xq1771FSxaYkFEYKLpIj4cQsORLW0SPhEj1Sy01yJLxfSY6EPQJIsliSt/HopHdiSdh93gYpcSI3XJmQYBLOl1gnnTxklGASXqZHkqvIkXC8ghwJ+/3kSFhPj3R6gBwJo68skXrdnEjmh4SPjrB6j4kifU0xfdPOSc2iSGWbTF/fQuFPAmXwmem7tUuA9H2NaRwmQILkBtP5NwESrDCdd34SIPldTOsfkcKT4Mp1pvcvAiS42sA033ZCksSSIH7oJMukWsGkG6M2SGEPJ26DYBKEXlgn5fkkoJFg0EuOBDX0SBc6yJHg1Aw5EszRI8FLYaTqY5yYKrVPiry1RHrAm/d+FUxX0/ZJ2yS4JzlfvZfNSfjaPgm6nJNkC6RyByRoc0zCfJHOJciRIOAjR4I39EjQR4905mJhSR85q/DDlDPSH9OSgLKZ6s5B7tz7uDRvZzir66JuAndNx8WgscnkdB5X+7dq143f1rVLgMfXtH+UvkS4u1Wt9rN79v/Op1Myntf096CoxDB0A9SM3zjFRm4X03n/ABXLFGt+fmWaAAAAAElFTkSuQmCC)
+}
+
+@media (max-width:320px)
+{
+	.CynXVPwwGVh
+	{
+		margin: 29px 0 25px 0
+	}
+}
+
+.MdTtl01
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	flex-pack: center;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 15px
+}
+
+.MdTtl01:after
+{
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: #dee5ec;
+	position: absolute;
+	top: 50%;
+	left: 0
+}
+
+.MdTtl01 .mdTtl01Inner
+{
+	z-index: 1;
+	position: relative;
+	display: inline-block;
+	padding: 0 16px;
+	color: #bec8d2;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	background-color: #fff
+}
+
+@media (min-width:768px)
+{
+	.MdTtl01 .mdTtl01Inner
+	{
+		font-size: 14px
+	}
+}
+
+@media (max-width:320px)
+{
+	.MdTtl01 .mdTtl01Inner
+	{
+		width: 174px
+	}
+}
+
+.hnHRiCzhSIS
+{
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 25px
+}
+
+.hnHRiCzhSIS .mdSubTtl01P01
+{
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 24px
+}
+
+.vIQSNlEma
+{
+	-webkit-box-flex: 1;
+	flex: 1 0 auto;
+	box-sizing: border-box
+}
+
+.vIQSNlEma .HoADZameP
+{
+	padding-top: 1px
+}
+
+@media (min-width:768px)
+{
+	.vIQSNlEma
+	{
+		display: -webkit-box;
+		display: flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		flex-align: center;
+		align-items: center;
+		margin: 0 auto;
+		width: 500px!important
+	}
+
+	.vIQSNlEma .HoADZameP
+	{
+		-webkit-box-flex: 1;
+		flex: 1 0 auto;
+		box-shadow: 0 6px 17px 0 rgba(0,0,0,.1);
+		width: 500px!important
+	}
+}
+
+.ipppQJPwgSw
+{
+	background-color: transparent;
+	padding: 0
+}
+
+.ipppQJPwgSw .ziHiEqHQE
+{
+	font-size: 12px;
+	color: #6c7985;
+	text-decoration: none
+}
+
+.ipppQJPwgSw .ziHiEqHQE:before
+{
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAFQUExURUdwTLzG0cLJ1r3J0r7CzL7F0r7I0r/M0r7I0r7CzMjI2sDJ0r7H08HI2L3Fzr7I08HK08DN077I07/J07/I0sDK1cbi4r/I0////8nJ1r3I0r/I1MTN17/M2L/I077J07jCzL7J0r7J1L7I0cXN1b/J0sTM077I07/I077I07/K077J0sXQ3LzH0r/J0r7I0sPS0sbU1MzM3b7J0L/I0r3I0rzG07jC0v///7/J0r7I08PJ1dra2r/J0r7J0tTU1L7F0rjI0r7I0r7I0b/I07/I0b7J0r/I0r7I0L3J07jI0rjIz7/f38DJ0r/J0////7/J1L/I077J0cDJ0sLO2r/P17/P373I0r7I0r/J0r/J0b7J07///77D0r/J09DQ577I077K07vI0L7I073I0czM/77I0r7I0rjF0sHK077J077IzL/J0r/J077C0L7I0hvHzXUAAABvdFJOUwDmJt752WYo/P0OVcYh4qkdKXpkbEkJpAET0lQaFI2G/r1f4B+JI2ORglhbFtOU5BESD9DIzsv6A4WHKwewbgb0+0utwMShiMWv9vcIUYECGHDxORUgEKczNJx7BPC0C+hv29G/Bczl6zqd+G2A7CBojAAAAAFLSURBVDjLtZRlc8JAEIahQBOgUBwKdXd3d3d3d3v+/7ceSaadyyQ005nul91597nLXm73XK5/tBYnEFVOIBqcQFQWBFLJxIiAaLZHTlZWMazTBjk84tuqi60ZxSeS/uWlybxrsmbKn0TuNKIV7q+1Zh4e4SKpn05tsynoHd5e9FBtNbREXGaunuHGiIOG38G3JUE5uD2X12XCsCEpaTgzV7AJaUnIwrEZ2gOfJHxCmRnahl1J8ELKDK3DmiRcg2KGQuCRhHvImaEgzEvCB1yaoVKIyTfn5S6jhwFDGlMhKi97ze7rQW+/7sdLYMK094HxB7oH0fyU+NiQYn3PPQNoUJHYB5vGq+gTOVdgdnFG+FFrpr0j37rTWgN74zZNVfPT5HOK3bQo7nxedS/EogXGrqhLQMO/TW9jWD9dYQvVOYBc9R4nL0/kj8/aF7ZzUFI3SudZAAAAAElFTkSuQmCC);content: "";
+	vertical-align: top;
+	margin-right: 6px
+}
+
+.MdIco01Close,.ipppQJPwgSw .ziHiEqHQE:before
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 18px;
+	height: 18px;
+	background-size: 18px auto
+}
+
+.MdIco01Close
+{
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkBAMAAAATLoWrAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURUdwTP///////////////////////////x1LVb4AAAAHdFJOUwBX/ONQ/UnPT8npAAAAX0lEQVQoz2NgGPog2QREOpshCZkXCTAwMKoXIwuVKzIwCJUjCzmVFwkwqperIAkBuYpC5SDdCCBUXhoO0oyqDE0RA4NoeXkgAyEhLBoxjcfiCCxOxeIhLN7GEjhDFQAAQHMZo9py75kAAAAASUVORK5CYII=)
+}
+
+.MdIco01Setting
+{
+	height: 16px;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAMAAABNTyq8AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAGSUExURUdwTGpqampqamlpaWdnZ2pqamtra2pqampqam1tbWxsbGpqampqampqamtra39/f3h4eGlpaWtra2tra2pqav///2pqamRkZGpqampqampqamxsbGpqampqampqam1tbW1tbWpqamhoaG1tbWpqamlpaWRkZGpqamtra2tra2pqampqampqamtra2tra2tra2RkZGpqanFxcX9/f2hoaGtra2pqanNzc2pqamhoaGtra39/f2pqampqamlpaW5ubqqqqmtra2pqampqam5ubmpqamtra21tbWtra25ubmtra2pqampqamtra2pqampqampqamtra39/f2tra21tbWtra3d3d2pqamxsbGdnZ2pqamtra2pqamtra2tra2pqamxsbGxsbGRkZGpqamtra2tra2RkZGpqam9vb2pqampqampqamtra2lpaWpqamtra2xsbGxsbHFxcWxsbGtra2ZmZmtra2pqampqamlpaW9vb2pqamhoaGtra2tra29vb25ubmxsbGtra2pqam1tbWpqahcgif0AAACFdFJOUwDy1bPqPH7M5hVCmbLidAIRxNstrwEM+/m+/iHa9+sHI43eOt+s+JS3mmCXvaQypv3wCQjZZK0Lx+MaBnof3BcDd7tlHraRDoUz1Ib8q+3JVKkEhxyCD6NS75Cw3ZhhcVBq8WeKjvbTJ4sYzoyPYsM7XhtLteUT+vXLIFnNnc8pJS+D0TEZ+jOpAAABhUlEQVQ4y8XU5XPCMBQA8HSVFSjFhowNBgzmgmzM3d3d3d1d3/+9pmUQuh23u30gH5K89nfp60tahNLZLOWZUpsxpkSXLsk8BgtTIlMG7nOz/4DMMqqvUd8Ne02NGsPynIKGSwz5teBrUqFi8IOjGRZXcTDqhzqgvPb2ZDMLlUgbcIsNSpgnunUtaAA6SJMT8k1LgzVxpRXTfqqTQOUFFbGZhhMEThML+ga7CTQUnBiXJ1oGeB4YrRxE5p2lBDIWwYgHr8PoWYRYPYPXsuzAQg+ZlHUFdNLAAYsjFjipz7JXqwslI5pXAp7GiEG/IuEbCRiFwsnkPApL6se9w8crae55p+5anTiqdlGfBArcnqKfJUBvVJRAlTeJYtJ0vJgvjidyW6gqm1SYzfiJNGwcG1Dk2bVLJvUAWbY9O/AXSph/AHBnKYW15NfbgnUoOruCIxwUOilR3AYYU5XJ2lZWIm2PWTl0VftSClO9tn+c8RMFlaVExQ783RUcpkSTNEZdnrT+Ib4Apkg8yuvXRqYAAAAASUVORK5CYII=)
+}
+
+.MdIco01AddFriend,.MdIco01Setting
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 18px;
+	background-size: 18px auto
+}
+
+.MdIco01AddFriend
+{
+	height: 18px;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAFcUExURUdwTGtra21tbWtra2tra2xsbGpqan9/f2pqam1tbWpqampqampqampqampqampqampqampqamtra2RkZGlpaWtra2pqamtra2tra5mZmWdnZ25ubmpqampqam1tbX9/f2pqan9/f2pqamtra2pqam5ubmRkZGxsbGtra2xsbGtra2pqamtra2pqamxsbGpqam9vb2tra2pqamdnZ39/f25ubmxsbGRkZGpqamtra2tra2tra2pqampqampqamlpaXFxcWpqav///2pqamtra2tra2tra2pqampqamtra2tra2pqamhoaHNzc2lpaWpqamtra2pqampqampqam1tbWxsbGpqampqamlpaWtra2lpaWpqampqamtra2pqampqamlpaWhoaGpqamRkZHFxcWlpaWtra2pqamlpaWpqamlpaW1tbWlpaW1tbW1tbWpqamlpaW5ubn9/f2pqagaU0OkAAABzdFJOUwDgP36RXDwClwfW0f6Z9R/K08jsxoV1prwF7zOSfxUIDASjE/wl/TsaQqTYjkg9lCer1eoGHij7fefzYXpZwKwJ6QEwRbC3Xdo0TjfeC7Pmd2XtkCMvYLanlkH5c21U35vNqPYb3F9D6Fu/Dq5NQaq4NQqdtZSrAAABMUlEQVQ4y82U51PCQBDFLxKMAUSaIEgHe++99957713U9//PmIQ5lQub8SPvw+67nd8kN/tmjrESV3hhfsjd0lFrxSw5EFlv9rhc0WmSqfL7t1S9T2CUhKqxkjeKb0qhIN8id0HMUNBqDXdjKCOYuoE5bkdgIyAbGrjt6+4hoFY0cjsZkAiord7LbRqD9Apm8+b25oDcU3xbShrmOmsRzDk29ZbJpq3CuzA29YYnK8h7pdcHxGgkfokdvaeeEU1oPfmZERHlLIJQwrAvr7jTcimHXWD2PHD+Bnb/+F4EOj1xB1N/zl/MDB0hsGu6owAt4zBcCMRkWc7hQ6syH41vrAlfkfAjPhoOib/qVVX1GPtaVfkIlcX2Jtzpf5CjQlSnCXLCpCbG+rvaCzMxqdRfJPYNwpw4q+EAm58AAAAASUVORK5CYII=)
+}
+
+.MdFormGroup01
+{
+	padding: 0 25px
+}
+
+.MdFormGroup01 .mdFormGroup01Btn
+{
+	margin-top: 35px
+}
+
+@media (min-width:768px)
+{
+	.MdFormGroup01
+	{
+		padding: 0 62px
+	}
+}
+
+.MdInputTxt01
+{
+	position: relative;
+	box-sizing: border-box;
+	height: 52px;
+	margin-bottom: 24px
+}
+
+.MdInputTxt01:after
+{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 2px;
+	border-bottom: 2px solid #dee5ec
+}
+
+.MdInputTxt01>input
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	height: 20px;
+	line-height: 16px;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: transparent;
+	color: #444;
+	font-size: 16px!important
+}
+
+.MdInputTxt01>input::-webkit-input-placeholder
+{
+	color: #dee5ec;
+	font-weight: 700
+}
+
+.MdInputTxt01>input::placeholder
+{
+	color: #dee5ec;
+	font-weight: 700
+}
+
+.MdInputTxt01>input::-ms-clear
+{
+	display: none
+}
+
+.MdInputTxt01 .mdInputTxt01Label
+{
+	display: none;
+	color: #dee5ec;
+	font-size: 12px
+}
+
+.MdInputTxt01.ExSelected:after
+{
+	border-bottom: 2px solid #00b900
+}
+
+.MdInputTxt01.ExSelected .mdInputTxt01Label
+{
+	display: inherit;
+	color: #00b900
+}
+
+.MdInputTxt01.ExError:after
+{
+	border-bottom: 2px solid #eb5a46
+}
+
+.MdInputTxt01.ExError .mdInputTxt01Label
+{
+	display: inherit;
+	color: #eb5a46
+}
+
+.MdInputTxt01.ExFocusOut .mdInputTxt01Label
+{
+	display: inherit
+}
+
+.MdFormError01
+{
+	margin: 25px 0 16px 0;
+	text-align: center
+}
+
+.MdFormError01 .mdFormErrorTxt01
+{
+	color: #eb5a46;
+	font-size: 12px
+}
+
+@media (min-width:768px)
+{
+	.MdFormError01
+	{
+		margin: 20px 0 0 0
+	}
+}
+
+.TmClMWlFbF
+{
+	-webkit-box-ordinal-group: 2;
+	flex-order: 2;
+	order: 2;
+	margin: 0 30px 30px 30px;
+	line-height: 23px;
+	color: var(--ldsm-semantic-quaternary-sub-text,#bec8d2);
+	font-size: 12px
+}
+
+.TmClMWlFbF b
+{
+	font-weight: 400
+}
+
+@media (min-width:768px)
+{
+	.TmClMWlFbF
+	{
+		-webkit-box-ordinal-group: 1;
+		flex-order: 1;
+		order: 1;
+		-webkit-box-flex: 0;
+		flex: none;
+		margin: 0
+	}
+}
+
+.EdEOwblWN
+{
+	-webkit-box-ordinal-group: 1;
+	flex-order: 1;
+	order: 1;
+	width: 100%;
+	font-size: 12px;
+	line-height: 23px
+}
+
+.EdEOwblWN .hBSEFNKsKI
+{
+	margin-bottom: 15px;
+	text-align: center
+}
+
+.EdEOwblWN .hBSEFNKsKI li
+{
+	display: inline-block;
+	margin: 0 11px
+}
+
+.EdEOwblWN .hBSEFNKsKI a
+{
+	color: var(--ldsm-semantic-quaternary-sub-text,#6c7985)
+}
+
+@media (min-width:768px)
+{
+	.EdEOwblWN
+	{
+		-webkit-box-ordinal-group: 2;
+		flex-order: 2;
+		order: 2;
+		-webkit-box-flex: 1;
+		flex: 1 1 auto
+	}
+
+	.EdEOwblWN .hBSEFNKsKI
+	{
+		margin-bottom: 0;
+		float: right
+	}
+
+	.EdEOwblWN .hBSEFNKsKI li
+	{
+		margin: 0 11px
+	}
+
+	.EdEOwblWN .hBSEFNKsKI li:first-child
+	{
+		margin-left: 0
+	}
+
+	.EdEOwblWN .hBSEFNKsKI li:last-child
+	{
+		margin-right: 0
+	}
+}
+
+.MdLYR01Layer
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%
+}
+
+.MdLYR01Layer .mdLYR01Overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5)
+}
+
+.MdLYR01Layer .mdLYR01Inner
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-transform: translate(50%,50%);
+	transform: translate(50%,50%);
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+	width: 90%;
+	width: calc(100% - 25px);
+	width: calc(100% - constant(safe-area-inset-right) - constant(safe-area-inset-left) - 25px);
+	width: calc(100% - env(safe-area-inset-right) - env(safe-area-inset-left) - 25px);
+	max-height: 90%;
+	max-height: calc(100% - 100px);
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 3px
+}
+
+@media (min-width:768px)
+{
+	.MdLYR01Layer .mdLYR01Inner
+	{
+		max-width: 500px
+	}
+}
+
+.MdLYR01Layer .mdLYR01Body
+{
+	-webkit-box-flex: 1;
+	flex: 1 1 auto;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch
+}
+
+.MdLYR01Layer .mdLYR01Head
+{
+	position: relative;
+	padding: 23px 65px 23px 17px;
+	background-color: #f7f7f7;
+	border-radius: 3px 3px 0 0
+}
+
+.MdLYR01Layer .mdLYR01Ttl01
+{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5
+}
+
+.MdLYR01Layer .mdLYR01Close
+{
+	position: absolute;
+	top: 20px;
+	top: calc(50% - 25px);
+	right: 0;
+	width: 50px;
+	height: 50px;
+	background-color: transparent
+}
+
+.MdLYR01Layer .mdLYR01CloseIco
+{
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	text-align: left;
+	text-indent: -9999px;
+	width: 18px;
+	height: 18px;
+	background-size: 18px auto;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkBAMAAAATLoWrAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURUdwTGZmZmZmZmZmZl9fX2ZmZmhoaGZmZhlsrWAAAAAHdFJOUwBX/OP9UEkFRsV+AAAAdklEQVQoz2NgGAiQbApjBZtBGeZFAhAGo3oxTKhcEcIQKocJBZVDlDGql6sywNRDlAmVw0yAsWEySMqQFUF4KIogylAVgZSVuKMoAitDU8TAIFJe7shASAiLRkzjsTgC06lYPITpbSyBgyUIsQQ0lujAEmn0BQBp1if79FkxIAAAAABJRU5ErkJggg==)
+}
+
+.MdLYR01Layer .mdLYR01Content
+{
+	padding: 40px 25px;
+	text-align: center
+}
+
+.MdLYR01Layer .mdLYR01Txt01
+{
+	padding: 0 0 40px 0;
+	line-height: 24px;
+	color: #6a6a6a
+}
+
+.MdLYR01Layer .mdLYR01Ul li
+{
+	margin-bottom: 40px
+}
+
+.MdLYR01Layer .mdLYR01Ul li:last-child
+{
+	margin-bottom: 0
+}
+
+.MdLYR01Layer .MdIco01Setting
+{
+	margin: 0 5px;
+	vertical-align: text-bottom
+}
+
+.MdLYR01Layer .mdLYR02QrCode
+{
+	padding: 50px 56px
+}
+
+.MdLYR01Layer .mdLYR02Txt01
+{
+	padding: 0 0 20px 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	color: #6a6a6a
+}
+
+.MdLYR01Layer .mdLYR02Box01
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: center;
+	flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	flex-pack: center;
+	justify-content: center;
+	border: 2px solid #dee5ec;
+	box-sizing: border-box
+}
+
+.MdLYR01Layer .mdLYR02Box01Ol
+{
+	margin: 22px 27px;
+	max-width: 100%
+}
+
+.MdLYR01Layer .mdLYR02Box01Ol>li
+{
+	padding-bottom: 10px;
+	margin-left: 10px;
+	color: #6a6a6a;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: left;
+	list-style-type: decimal;
+	word-wrap: break-word
+}
+
+.MdLYR01Layer .mdLYR02Box01Ol>li:last-child
+{
+	padding-bottom: 0
+}
+
+.MdLYR01Layer .mdLYR02Box01Ol .MdIco01AddFriend
+{
+	margin: 0 5px;
+	vertical-align: text-bottom
+}
+
+@media (min-width:768px)
+{
+	.MdLYR01Layer .mdLYR01Head
+	{
+		padding: 23px 65px 23px 25px
+	}
+
+	.MdLYR01Layer .mdLYR01Ttl01
+	{
+		font-size: 20px
+	}
+
+	.MdLYR01Layer .mdLYR01Content
+	{
+		padding: 50px 62px
+	}
+}
+
+.MdMN01Banner
+{
+	height: 52px
+}
+
+.MdMN01Banner .mdMN01Txt01
+{
+	margin: 0 140px 0 16px;
+	font-weight: 700
+}
+
+.MdMN01Banner .mdMN01Txt01 span
+{
+	font-weight: 700;
+	letter-spacing: normal;
+	letter-spacing: .2px
+}
+
+.MdMN01Banner .mdMN01Txt01P01
+{
+	display: block;
+	font-size: 15px
+}
+
+.MdMN01Banner .mdMN01Btn
+{
+	position: absolute;
+	top: 13px;
+	top: calc(50% - 14px);
+	right: 36px;
+	border: 1px solid hsla(0,0%,100%,.8);
+	padding: 6px 13px;
+	box-sizing: border-box;
+	color: inherit!important;
+	text-decoration: none;
+	border-radius: 3px
+}
+
+.MdMN01Banner .MdIco01Close
+{
+	position: absolute;
+	top: 19px;
+	top: calc(50% - 9px);
+	right: 8px;
+	background-color: transparent
+}
+
+.MdMN01Banner .mdMN01Inner
+{
+	background-image: -webkit-linear-gradient(0deg,#59d86d,#4496c8);
+	background-image: linear-gradient(90deg,#59d86d,#4496c8);
+	position: relative;
+	width: 100%;
+	min-height: 30px;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 12px
+}
+
+.MdMN02Captcha
+{
+	margin-top: 26px
+}
+
+.MdMN02Captcha .mdMN02Inner
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex
+}
+
+.MdMN02Captcha .mdMN02CaptchaImg
+{
+	-webkit-box-flex: 0;
+	flex: none;
+	width: 50%;
+	max-width: 150px;
+	height: 57px;
+	border: 2px solid #dee5ec;
+	box-sizing: border-box;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	text-align: center;
+	margin-right: 13px
+}
+
+.MdMN02Captcha img
+{
+	width: 100%
+}
+
+.MdMN02Captcha .MdInputTxt01
+{
+	-webkit-box-flex: 1;
+	flex: 1 1 auto;
+	width: 100%;
+	margin: 0
+}
+
+.MdMN02Captcha .ipppQJPwgSw
+{
+	margin-top: 9px
+}
+
+@media (max-width:320px)
+{
+	.MdMN02Captcha .mdMN02CaptchaImg
+	{
+		height: auto
+	}
+}
+
+.ioGeuSCi
+{
+	margin: 24px 25px 35px;
+	text-align: center
+}
+
+.ioGeuSCi .BQDUkOnpus
+{
+	color: #469fd6;
+	font-size: 12px;
+	line-height: 13px;
+	background-color: transparent
+}
+
+.ioGeuSCi .BQDUkOnpus:hover
+{
+	text-decoration: underline
+}
+
+@media (min-width:768px)
+{
+	.ioGeuSCi
+	{
+		margin: 24px 62px 50px
+	}
+}
+
+.MdMN04QrLogin
+{
+	margin: 40px 62px
+}
+
+.RlmdZyPbX
+{
+	margin: 0 auto;
+	padding: 0 62px;
+	text-align: center;
+	box-sizing: border-box
+}
+
+.RlmdZyPbX .OwmruCxxj
+{
+	margin: 0 0 20px 0
+}
+
+.RlmdZyPbX .tOgBmgzPo
+{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 20px;
+	background-color: #fff
+}
+
+.RlmdZyPbX .tOgBmgzPo>img
+{
+	width: 150px;
+	height: 150px
+}
+
+.RlmdZyPbX .ipppQJPwgSw
+{
+	display: block;
+	margin: 0 auto
+}
+
+.RlmdZyPbX .ziHiEqHQE
+{
+	font-size: 13px
+}
+
+.RlmdZyPbX .DzPhJkwfG
+{
+	font-size: 14px;
+	line-height: 24px
+}
+
+.RlmdZyPbX .FytiaKLmNd
+{
+	margin: 40px 0 50px
+}
+
+.RlmdZyPbX .FytiaKLmNd+.ioGeuSCi
+{
+	margin-top: -10px
+}
+
+.MdMN06DigitCode
+{
+	margin: 0 auto 50px;
+	padding: 0 62px;
+	text-align: center;
+	box-sizing: border-box
+}
+
+.MdMN06DigitCode .mdMN06Txt
+{
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 24px
+}
+
+.MdMN06DigitCode .mdMN06CodeBox
+{
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: center;
+	flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	flex-pack: center;
+	justify-content: center;
+	border: 2px solid #dee5ec;
+	box-sizing: border-box;
+	max-width: 303px;
+	padding: 34px 0;
+	margin: 35px auto;
+	text-align: center
+}
+
+.MdMN06DigitCode .mdMN06Number
+{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #00b900;
+	font-size: 51px;
+	font-weight: 700;
+	line-height: 38px
+}
+
+.MdMN06DigitCode .mdMN06Desc
+{
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 16px
+}
+
+.MdMN06DigitCode .mdMN06Desc time
+{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.MdMN06DigitCode .BQDUkOnpus
+{
+	font-size: 14px
+}
+
+.MdMN07UserInfo
+{
+	margin: 0 auto;
+	padding: 0 25px;
+	text-align: center;
+	box-sizing: border-box
+}
+
+.MdMN07UserInfo .mdMN07Img
+{
+	margin: 50px 0 15px 0
+}
+
+.MdMN07UserInfo .mdMN07Img>img
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%
+}
+
+.MdMN07UserInfo .mdMN07Txt
+{
+	font-size: 12px;
+	line-height: 13px
+}
+
+.MdMN07UserInfo .mdMN07Name
+{
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 10px
+}
+
+.MdMN07UserInfo .mdMN07Btn
+{
+	margin-top: 35px
+}
+
+.MdMN07UserInfo .ioGeuSCi
+{
+	margin: 25px 0 40px
+}
+
+.MdMN07UserInfo .BQDUkOnpus
+{
+	font-size: 14px
+}
+
+@media (min-width:768px)
+{
+	.MdMN07UserInfo
+	{
+		padding: 0 62px
+	}
+
+	.MdMN07UserInfo .ioGeuSCi
+	{
+		margin: 25px 0 50px
+	}
+}
+
+.MdMN08Error
+{
+	flex: 1 0 auto;
+	display: -webkit-box;
+	display: flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	flex-pack: center;
+	justify-content: center;
+	background-color: #d9e1e9
+}
+
+.MdMN08Error .mdMN08ErrorTxt
+{
+	color: #6c7985;
+	font-size: 24px;
+	font-weight: 700
+}
+
+.grecaptcha-badge
+{
+	display: none!important
+}
+
+body
+{
+	font-family: system-ui,-apple-system,font-face-apple-system,BlinkMacSystemFont,Noto Sans,Hiragino Sans,Hiragino Kaku Gothic ProN,Helvetica Neue,Helvetica,sans-serif
+}
